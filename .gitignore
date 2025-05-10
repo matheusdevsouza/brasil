@@ -1,0 +1,46 @@
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Dependências
+/vendor/
+/node_modules/
+
+# Arquivos compilados
+/public/css/output.css
+/public/js/*.min.js
+
+# Arquivos de cache
+*.cache
+.cache/
+.php_cs.cache
+
+# Arquivos de log
+/logs/*
+!logs/.gitkeep
+
+# Arquivos de upload
+/public/uploads/*
+!public/uploads/.gitkeep
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de teste
+/coverage/
+.phpunit.result.cache
+
+# Arquivos de backup
+*.bak
+*.swp
+*~
+
+# Arquivos de configuração local
+config/config.php
+php.ini 

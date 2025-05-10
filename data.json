@@ -1,0 +1,628 @@
+{
+    "questions": [
+        {
+            "question": "Povos indígenas do Brasil",
+            "answer": "Os principais povos indígenas que habitavam o território brasileiro antes da chegada dos portugueses eram os Tupi-Guarani, os Jê, os Aruak e os Karib. Os Tupi-Guarani, os mais numerosos, ocupavam a costa, dividindo-se em nações como Tupinambá, Tupiniquim e Guarani. Os Jê habitavam o interior, enquanto Aruak e Karib predominavam na Amazônia."
+        },
+        {
+            "question": "Quem liderou a expedição de 1500?",
+            "answer": "Pedro Álvares Cabral, navegador português, chegou ao Brasil em 22 de abril de 1500, comandando uma frota de 13 navios e cerca de 1.200 homens. A expedição, que partiu de Lisboa em 9 de março, desviou-se para o oeste e alcançou o litoral da Bahia."
+        },
+        {
+            "question": "O que definiu o Tratado de Tordesilhas?",
+            "answer": "Assinado em 1494 entre Portugal e Espanha, o Tratado de Tordesilhas, mediado pelo Papa Alexandre VI, dividiu o mundo com uma linha a 370 léguas a oeste de Cabo Verde. Territórios a leste ficaram com Portugal, e a oeste, com a Espanha, definindo a colonização na América."
+        },
+        {
+            "question": "O que causou a Inconfidência Mineira?",
+            "answer": "A Inconfidência Mineira (1789) foi um movimento separatista em Minas Gerais, motivado pelos altos impostos da Coroa Portuguesa, como a derrama. Liderado por Tiradentes e outros, foi descoberto antes de ser executado, mas tornou-se símbolo da luta pela independência."
+        },
+        {
+            "question": "O que foi a Lei Áurea e seu signatário?",
+            "answer": "A Lei Áurea, assinada pela Princesa Isabel em 13 de maio de 1888, aboliu a escravidão no Brasil, libertando todos os escravos. Apesar de ser um marco, a falta de políticas de inclusão gerou desigualdades sociais persistentes."
+        },
+        {
+            "question": "O que marcou o Período Regencial?",
+            "answer": "O Período Regencial (1831-1840) foi marcado pela regência devido à menoridade de Dom Pedro II. Instável, teve revoltas como Cabanagem, Balaiada e Revolução Farroupilha, terminando com o Golpe da Maioridade, que coroou Pedro II."
+        },
+        {
+            "question": "Quais países formaram a Tríplice Aliança?",
+            "answer": "Na Guerra do Paraguai (1864-1870), Brasil, Argentina e Uruguai formaram a Tríplice Aliança contra o Paraguai, que perdeu cerca de 70% de sua população masculina adulta após o conflito."
+        },
+        {
+            "question": "O que encerrou a República Velha?",
+            "answer": "A Revolução de 1930, liderada por Getúlio Vargas, depôs Washington Luís, impediu a posse de Júlio Prestes e encerrou a República Velha, quebrando o domínio das oligarquias cafeeiras de São Paulo e Minas Gerais."
+        },
+        {
+            "question": "O que foi o Estado Novo?",
+            "answer": "O Estado Novo (1937-1945) foi um regime ditatorial de Getúlio Vargas, com centralização do poder, censura, perseguição política e propaganda pelo DIP. Inspirado no fascismo, terminou com a deposição de Vargas em 1945."
+        },
+        {
+            "question": "Qual era o objetivo do Plano Real?",
+            "answer": "Implementado em 1994 no governo Itamar Franco, com Fernando Henrique Cardoso como ministro, o Plano Real controlou a hiperinflação com a criação do Real e medidas fiscais e monetárias, sendo um dos planos econômicos mais bem-sucedidos do Brasil."
+        },
+        {
+            "question": "O que foi a Revolta da Armada?",
+            "answer": "A Revolta da Armada (1893-1894) foi uma rebelião da Marinha contra Floriano Peixoto, liderada por Custódio de Melo, que exigia novas eleições. Após combates na Baía de Guanabara, os revoltosos foram derrotados."
+        },
+        {
+            "question": "O que provocou a Guerra de Canudos?",
+            "answer": "A Guerra de Canudos (1896-1897) foi um conflito no sertão da Bahia entre o Exército e seguidores de Antônio Conselheiro. O movimento messiânico de Canudos foi destruído após quatro expedições, com cerca de 25 mil mortos."
+        },
+        {
+            "question": "Por que houve a Revolta da Vacina?",
+            "answer": "A Revolta da Vacina (1904) foi uma rebelião popular no Rio de Janeiro contra a vacinação obrigatória contra a varíola. Confrontos levaram à suspensão temporária da obrigatoriedade, sendo um marco da Primeira República."
+        },
+        {
+            "question": "O que defendia o Tenentismo?",
+            "answer": "O Tenentismo (década de 1920) foi um movimento de tenentes do Exército que defendia reformas políticas e sociais, como voto secreto e fim da corrupção. Incluiu a Revolta dos 18 do Forte (1922) e a Coluna Prestes (1924-1927)."
+        },
+        {
+            "question": "Quais foram as fases da Era Vargas?",
+            "answer": "A Era Vargas (1930-1945) teve três fases: Governo Provisório, Estado Novo e Governo Constitucional. Marcada por mudanças como a CLT, salário mínimo e criação da Petrobras, terminou com o suicídio de Vargas em 1954."
+        },
+        {
+            "question": "O que foi o Movimento Diretas Já?",
+            "answer": "O Movimento Diretas Já (1984) foi uma campanha por eleições diretas para presidente. Apesar da rejeição da emenda Dante de Oliveira, reuniu milhões em comícios e contribuiu para o fim da ditadura militar."
+        },
+        {
+            "question": "O que definiu o Plano Collor?",
+            "answer": "O Plano Collor (1990), de Fernando Collor, confiscou poupanças por 18 meses e congelou preços e salários. Apesar de reduzir a inflação inicialmente, fracassou e contribuiu para o impeachment de Collor em 1992."
+        },
+        {
+            "question": "O que motivou a Revolução de 1932?",
+            "answer": "A Revolução Constitucionalista de 1932, em São Paulo, foi contra Getúlio Vargas, exigindo uma Constituinte e autonomia estadual. Derrotada após três meses, acelerou a Constituinte de 1934."
+        },
+        {
+            "question": "O que foi o AI-5?",
+            "answer": "O Ato Institucional Número 5 (AI-5), de 1968, foi o decreto mais repressivo da ditadura militar, permitindo ao presidente fechar o Congresso, cassar mandatos e suspender direitos, em resposta à oposição e protestos."
+        },
+        {
+            "question": "O que foi o Milagre Econômico?",
+            "answer": "O Milagre Econômico (1968-1973) foi um período de crescimento econômico durante a ditadura, com PIB acima de 10% ao ano, impulsionado por obras e empréstimos. Terminou com a crise do petróleo de 1973."
+        },
+        {
+            "question": "Quem liderou as Diretas Já?",
+            "answer": "A Campanha das Diretas Já (1984) foi liderada por políticos como Ulysses Guimarães e Tancredo Neves, reunindo milhões em comícios por eleições diretas, acelerando a redemocratização."
+        },
+        {
+            "question": "O que foi o Plano Cruzado?",
+            "answer": "O Plano Cruzado (1986), do governo Sarney, congelou preços e salários, criou o Cruzado e instituiu o gatilho salarial. Fracassou devido à escassez e inflação reprimida após o descongelamento."
+        },
+        {
+            "question": "O que foi a Revolta da Chibata?",
+            "answer": "A Revolta da Chibata (1910), liderada por João Cândido, foi um motim na Marinha contra castigos físicos. Conseguiu a abolição das chibatadas, mas os líderes foram perseguidos e presos."
+        },
+        {
+            "question": "O que foi o Movimento Caras-Pintadas?",
+            "answer": "O Movimento dos Caras-Pintadas (1992) foi uma série de protestos estudantis, com rostos pintados, pedindo o impeachment de Fernando Collor. Contribuiu para sua saída em 1992."
+        },
+        {
+            "question": "O que foi o Plano Bresser?",
+            "answer": "O Plano Bresser (1987), do governo Sarney, congelou preços e salários por três meses e criou o Cruzado Novo. Fracassou em controlar a inflação e foi substituído pelo Plano Verão em 1989."
+        },
+        {
+            "question": "Qual era o objetivo de Cabral em 1500?",
+            "answer": "A expedição de Pedro Álvares Cabral, em 1500, tinha como objetivo principal alcançar as Índias navegando pelo Atlântico, mas desviou-se e chegou ao Brasil, na região da Bahia."
+        },
+        {
+            "question": "Quais eram as nações Tupi-Guarani em 1500?",
+            "answer": "As principais nações Tupi-Guarani no Brasil em 1500 incluíam os Tupinambá, Tupiniquim e Guarani, que ocupavam extensas áreas da costa brasileira."
+        },
+        {
+            "question": "Como Tordesilhas afetou o Brasil?",
+            "answer": "O Tratado de Tordesilhas (1494) garantiu a Portugal o direito de colonizar o litoral brasileiro, que ficou na zona portuguesa, permitindo a ocupação a partir de 1530."
+        },
+        {
+            "question": "Quem foi Tiradentes?",
+            "answer": "Tiradentes, ou Joaquim José da Silva Xavier, foi o principal líder executado da Inconfidência Mineira (1789), tornando-se símbolo da luta pela independência do Brasil."
+        },
+        {
+            "question": "Quais foram os efeitos da Lei Áurea?",
+            "answer": "A Lei Áurea (1888) libertou os escravos, mas a falta de políticas de inclusão levou à marginalização dos ex-escravos, agravando desigualdades sociais."
+        },
+        {
+            "question": "Revoltas do Período Regencial",
+            "answer": "O Período Regencial (1831-1840) foi marcado por revoltas como a Cabanagem (Pará), Balaiada (Maranhão) e Revolução Farroupilha (Rio Grande do Sul)."
+        },
+        {
+            "question": "O que iniciou a Guerra do Paraguai?",
+            "answer": "A Guerra do Paraguai (1864-1870) começou com a invasão do Mato Grosso e do Rio Grande do Sul pelo Paraguai, levando à formação da Tríplice Aliança."
+        },
+        {
+            "question": "Como a Revolução de 1930 alterou a política?",
+            "answer": "A Revolução de 1930 acabou com a política café-com-leite, centralizou o poder com Getúlio Vargas e abriu caminho para reformas sociais e econômicas."
+        },
+        {
+            "question": "Traços do Estado Novo",
+            "answer": "O Estado Novo (1937-1945) foi marcado por ditadura, censura, perseguição política, propaganda estatal e inspiração fascista, com forte centralização do poder."
+        },
+        {
+            "question": "Como o Plano Real estabilizou a economia?",
+            "answer": "O Plano Real (1994) estabilizou a economia com a introdução do Real, controle fiscal, ajuste monetário e fim da indexação, controlando a hiperinflação."
+        },
+        {
+            "question": "Quem liderou a Revolta da Armada?",
+            "answer": "A Revolta da Armada (1893-1894) foi liderada pelo almirante Custódio de Melo, que exigia novas eleições contra o governo de Floriano Peixoto."
+        },
+        {
+            "question": "Quem foi Antônio Conselheiro?",
+            "answer": "Antônio Conselheiro foi o líder messiânico da comunidade de Canudos, que reuniu sertanejos pobres e foi destruída pelo Exército em 1897."
+        },
+        {
+            "question": "Objetivo da campanha da Revolta da Vacina",
+            "answer": "A campanha de vacinação de 1904, liderada por Oswaldo Cruz, visava combater a varíola no Rio de Janeiro, mas gerou resistência por ser obrigatória."
+        },
+        {
+            "question": "Quais foram as ações do Tenentismo?",
+            "answer": "O Tenentismo promoveu a Revolta dos 18 do Forte (1922) e a Coluna Prestes (1924-1927), exigindo reformas políticas e sociais no Brasil."
+        },
+        {
+            "question": "Quais foram as reformas da Era Vargas?",
+            "answer": "A Era Vargas criou a CLT, o salário mínimo, a Petrobras e promoveu a industrialização, marcando profundas mudanças sociais e econômicas."
+        },
+        {
+            "question": "Por que rejeitaram a emenda Dante de Oliveira?",
+            "answer": "A emenda Dante de Oliveira (1984), que propunha eleições diretas, foi rejeitada no Congresso devido à pressão de setores conservadores da ditadura."
+        },
+        {
+            "question": "Impactos do Plano Collor",
+            "answer": "O confisco das poupanças no Plano Collor (1990) gerou crise de confiança, recessão econômica e aumento da insatisfação, culminando no impeachment de Collor."
+        },
+        {
+            "question": "Qual foi o resultado da Revolução de 1932?",
+            "answer": "A Revolução Constitucionalista de 1932 foi derrotada, mas pressionou o governo Vargas a convocar a Assembleia Constituinte de 1934."
+        },
+        {
+            "question": "Quais foram os efeitos do AI-5?",
+            "answer": "O AI-5 (1968) intensificou a repressão, com censura, prisões, torturas e exílios, silenciando a oposição e marcando o auge da ditadura militar."
+        },
+        {
+            "question": "Como terminou o Milagre Econômico?",
+            "answer": "O Milagre Econômico (1968-1973) terminou com a crise do petróleo de 1973, aumento da dívida externa e inflação, desacelerando a economia."
+        },
+        {
+            "question": "As Diretas já impactaram a redemocratização?",
+            "answer": "A Campanha das Diretas Já (1984) mobilizou a sociedade e pressionou o fim da ditadura, culminando na eleição indireta de Tancredo Neves em 1985."
+        },
+        {
+            "question": "Por que o Plano Cruzado falhou?",
+            "answer": "O Plano Cruzado (1986) fracassou devido à escassez de produtos, inflação reprimida e falta de ajustes fiscais, levando ao retorno da hiperinflação."
+        },
+        {
+            "question": "Quais foram os ganhos da Revolta da Chibata?",
+            "answer": "A Revolta da Chibata (1910) conseguiu a abolição dos castigos físicos na Marinha, mas seus líderes, como João Cândido, foram perseguidos."
+        },
+        {
+            "question": "Como os Caras-Pintadas afetaram o impeachment de Collor?",
+            "answer": "Os Caras-Pintadas (1992) mobilizaram a opinião pública com protestos, aumentando a pressão para o impeachment de Fernando Collor em 1992."
+        },
+        {
+            "question": "Qual moeda criou o Plano Bresser?",
+            "answer": "O Plano Bresser (1987) criou o Cruzado Novo como nova moeda, mas não conseguiu controlar a inflação, sendo substituído pelo Plano Verão."
+        },
+        {
+            "question": "Qual era a atividade econômica do Brasil colonial?",
+            "answer": "A principal atividade econômica do Brasil colonial era o cultivo da cana-de-açúcar, especialmente no Nordeste, utilizando mão de obra escrava."
+        },
+        {
+            "question": "O que foi o sistema de capitanias?",
+            "answer": "As capitanias hereditárias (1534) foram um sistema português que dividiu o Brasil em 15 faixas de terra, doadas a nobres para colonização e administração."
+        },
+        {
+            "question": "Quem foi Martim Afonso de Sousa?",
+            "answer": "Martim Afonso de Sousa foi um nobre português que, em 1532, fundou a primeira vila no Brasil, São Vicente, e organizou a colonização inicial."
+        },
+        {
+            "question": "O que foi o governo-geral colonial?",
+            "answer": "O governo-geral, criado em 1549, foi uma administração centralizada para coordenar as capitanias, com Tomé de Sousa como primeiro governador."
+        },
+        {
+            "question": "Quem foi Mem de Sá?",
+            "answer": "Mem de Sá foi o terceiro governador-geral do Brasil (1557-1572), responsável por expulsar os franceses da Baía de Guanabara e fundar o Rio de Janeiro."
+        },
+        {
+            "question": "O que foi a União Ibérica?",
+            "answer": "A União Ibérica (1580-1640) uniu Portugal e Espanha sob um rei, expondo o Brasil a ataques holandeses, como a invasão de Pernambuco (1630-1654)."
+        },
+        {
+            "question": "O que foi a invasão holandesa?",
+            "answer": "A invasão holandesa (1630-1654) ocupou Pernambuco e outras áreas do Nordeste, sendo liderada por Maurício de Nassau, até a expulsão pelos portugueses."
+        },
+        {
+            "question": "Quem foi Maurício de Nassau?",
+            "answer": "Maurício de Nassau foi o governador holandês do Nordeste brasileiro (1637-1644), promovendo melhorias urbanas e culturais, mas foi expulso em 1654."
+        },
+        {
+            "question": "O que foi a Revolta de Beckman?",
+            "answer": "A Revolta de Beckman (1684) ocorreu no Maranhão contra a Companhia de Comércio e os jesuítas, exigindo melhores condições e fim do monopólio comercial."
+        },
+        {
+            "question": "O que foi a Guerra dos Emboabas?",
+            "answer": "A Guerra dos Emboabas (1707-1709) foi um conflito em Minas Gerais entre paulistas e forasteiros pelo controle das minas de ouro recém-descobertas."
+        },
+        {
+            "question": "O que foi a Revolta de Filipe dos Santos?",
+            "answer": "A Revolta de Filipe dos Santos (1720), em Minas Gerais, foi contra os altos impostos e a criação das Casas de Fundição, sendo reprimida pela Coroa."
+        },
+        {
+            "question": "O que foi o ciclo do ouro?",
+            "answer": "O ciclo do ouro (século XVIII) foi a exploração de ouro em Minas Gerais, Goiás e Mato Grosso, que enriqueceu a Coroa e mudou a economia colonial."
+        },
+        {
+            "question": "O que foi a Conjuração Baiana?",
+            "answer": "A Conjuração Baiana (1798) foi um movimento em Salvador inspirado na Revolução Francesa, exigindo independência, abolição da escravidão e igualdade social."
+        },
+        {
+            "question": "O que foi a vinda da família real?",
+            "answer": "Em 1808, a família real portuguesa, liderada por Dom João VI, fugiu das invasões napoleônicas e se instalou no Rio de Janeiro, elevando o Brasil a reino."
+        },
+        {
+            "question": "O que foi a abertura dos portos?",
+            "answer": "A abertura dos portos (1808), decretada por Dom João VI, permitiu o comércio direto do Brasil com outras nações, rompendo o monopólio português."
+        },
+        {
+            "question": "O que foi a Revolução Pernambucana?",
+            "answer": "A Revolução Pernambucana de 1817 foi um movimento republicano e separatista em Pernambuco, reprimido pela Coroa, mas que inspirou a independência."
+        },
+        {
+            "question": "Quem proclamou a independência do Brasil?",
+            "answer": "Dom Pedro I proclamou a independência do Brasil em 7 de setembro de 1822, às margens do rio Ipiranga, em São Paulo, com o 'Grito do Ipiranga'."
+        },
+        {
+            "question": "O que foi o Primeiro Reinado?",
+            "answer": "O Primeiro Reinado (1822-1831) foi o governo de Dom Pedro I, marcado por conflitos políticos e a abdicação em favor de seu filho, Pedro II."
+        },
+        {
+            "question": "O que foi a Confederação do Equador?",
+            "answer": "A Confederação do Equador (1824) foi um movimento republicano no Nordeste contra o governo de Dom Pedro I, reprimido com violência."
+        },
+        {
+            "question": "O que foi a Guerra Cisplatina?",
+            "answer": "A Guerra Cisplatina (1825-1828) foi um conflito entre Brasil e Argentina pelo controle do Uruguai, que se tornou independente com o Tratado do Rio de Janeiro."
+        },
+        {
+            "question": "Por que Dom Pedro I abdicou?",
+            "answer": "Dom Pedro I abdicou em 1831 devido a crises políticas, oposição à sua centralização de poder e envolvimento com questões portuguesas."
+        },
+        {
+            "question": "O que foi o Golpe da Maioridade?",
+            "answer": "O Golpe da Maioridade (1840) antecipou a maioridade de Dom Pedro II, então com 14 anos, para assumir o trono e estabilizar o Período Regencial."
+        },
+        {
+            "question": "O que foi a Revolução Farroupilha?",
+            "answer": "A Revolução Farroupilha (1835-1845) foi uma revolta no Rio Grande do Sul contra o governo central, exigindo maior autonomia e justiça fiscal."
+        },
+        {
+            "question": "O que foi a Cabanagem?",
+            "answer": "A Cabanagem (1835-1840) foi uma revolta popular no Pará, liderada por indígenas, negros e mestiços, contra a miséria e o governo regencial."
+        },
+        {
+            "question": "O que foi a Balaiada?",
+            "answer": "A Balaiada (1838-1841) foi uma revolta no Maranhão, liderada por camponeses e escravos, contra a pobreza e a opressão das elites locais."
+        },
+        {
+            "question": "Quem foi Dom Pedro II?",
+            "answer": "Dom Pedro II foi o segundo imperador do Brasil (1840-1889), conhecido por sua longa regência, estabilidade política e apoio à educação e cultura."
+        },
+        {
+            "question": "O que foi a Lei do Ventre Livre?",
+            "answer": "A Lei do Ventre Livre (1871) declarou livres os filhos de mulheres escravizadas nascidos a partir de sua promulgação, sendo um passo para a abolição."
+        },
+        {
+            "question": "O que foi a Lei dos Sexagenários?",
+            "answer": "A Lei dos Sexagenários (1885) libertou escravos com mais de 60 anos, mas teve impacto limitado devido à baixa expectativa de vida dos escravizados."
+        },
+        {
+            "question": "O que levou à proclamação da República?",
+            "answer": "A proclamação da República (1889) foi liderada por militares e civis insatisfeitos com a monarquia, culminando na deposição de Dom Pedro II."
+        },
+        {
+            "question": "Quem foi o primeiro presidente do Brasil?",
+            "answer": "Deodoro da Fonseca foi o primeiro presidente do Brasil, assumindo o cargo em 1889 após a proclamação da República."
+        },
+        {
+            "question": "O que foi a política café-com-leite?",
+            "answer": "A política do café-com-leite foi a alternância de poder entre as elites de São Paulo (café) e Minas Gerais (leite) durante a República Velha."
+        },
+        {
+            "question": "O que foi a Revolta dos 18 do Forte?",
+            "answer": "A Revolta dos 18 do Forte (1922), no Rio de Janeiro, foi um levante tenentista contra o governo, marcando o início do Tenentismo."
+        },
+        {
+            "question": "O que foi a Coluna Prestes?",
+            "answer": "A Coluna Prestes (1924-1927) foi uma marcha tenentista liderada por Luís Carlos Prestes, exigindo reformas e percorrendo o interior do Brasil."
+        },
+        {
+            "question": "O que foi a crise de 1929 no Brasil?",
+            "answer": "A crise de 1929, causada pela quebra da bolsa de Nova York, desvalorizou o café brasileiro, agravando a crise econômica e política da República Velha."
+        },
+        {
+            "question": "Quem foi Washington Luís?",
+            "answer": "Washington Luís foi o último presidente da República Velha (1926-1930), deposto pela Revolução de 1930 liderada por Getúlio Vargas."
+        },
+        {
+            "question": "O que foi a Aliança Liberal?",
+            "answer": "A Aliança Liberal (1929) foi uma coalizão política que apoiou Getúlio Vargas na eleição de 1930, contra Júlio Prestes, levando à Revolução de 1930."
+        },
+        {
+            "question": "O que foi a Constituição de 1934?",
+            "answer": "A Constituição de 1934, promulgada após a Revolução Constitucionalista, estabeleceu voto secreto, direitos trabalhistas e maior autonomia estadual."
+        },
+        {
+            "question": "O que foi a Intentona Comunista?",
+            "answer": "A Intentona Comunista (1935) foi uma tentativa de golpe liderada por comunistas, como Luís Carlos Prestes, contra Vargas, reprimida pelo governo."
+        },
+        {
+            "question": "O que foi a Constituição de 1937?",
+            "answer": "A Constituição de 1937, chamada 'Polaca', instaurou o Estado Novo, concedendo poderes ditatoriais a Getúlio Vargas e suspendendo liberdades democráticas."
+        },
+        {
+            "question": "O que foi a Segunda Guerra Mundial no Brasil?",
+            "answer": "O Brasil entrou na Segunda Guerra Mundial em 1942, ao lado dos Aliados, enviando a FEB à Itália e sofrendo ataques de submarinos alemães."
+        },
+        {
+            "question": "O que foi a Força Expedicionária Brasileira?",
+            "answer": "A Força Expedicionária Brasileira (FEB) foi o contingente militar brasileiro que lutou na Itália durante a Segunda Guerra Mundial (1944-1945)."
+        },
+        {
+            "question": "Quem foi Eurico Gaspar Dutra?",
+            "answer": "Eurico Gaspar Dutra foi presidente do Brasil (1946-1951), eleito após o fim do Estado Novo, promovendo a redemocratização e a Constituição de 1946."
+        },
+        {
+            "question": "O que foi a Constituição de 1946?",
+            "answer": "A Constituição de 1946 restabeleceu a democracia no Brasil após o Estado Novo, garantindo liberdades civis, voto direto e separação de poderes."
+        },
+        {
+            "question": "O que foi a criação da Petrobras?",
+            "answer": "A Petrobras foi criada em 1953, no governo Vargas, para explorar e produzir petróleo, sendo um marco da soberania econômica brasileira."
+        },
+        {
+            "question": "Por que Vargas se suicidou?",
+            "answer": "Getúlio Vargas se suicidou em 1954 devido à crise política, pressão militar e escândalos, deixando uma carta-testamento ao povo brasileiro."
+        },
+        {
+            "question": "Quem foi Juscelino Kubitschek?",
+            "answer": "Juscelino Kubitschek foi presidente do Brasil (1956-1961), conhecido pelo Plano de Metas e pela construção de Brasília, inaugurada em 1960."
+        },
+        {
+            "question": "O que foi o Plano de Metas?",
+            "answer": "O Plano de Metas (1956-1961), de Juscelino Kubitschek, promoveu a industrialização e infraestrutura, com destaque para a construção de Brasília."
+        },
+        {
+            "question": "O que foi a construção de Brasília?",
+            "answer": "Brasília, inaugurada em 1960, foi construída no governo JK como nova capital, planejada por Oscar Niemeyer e Lúcio Costa, simbolizando modernização."
+        },
+        {
+            "question": "Quem foi Jânio Quadros?",
+            "answer": "Jânio Quadros foi presidente do Brasil em 1961, renunciando após sete meses devido a pressões políticas e crise institucional."
+        },
+        {
+            "question": "Quem foi João Goulart?",
+            "answer": "João Goulart foi presidente do Brasil (1961-1964), deposto pelo golpe militar de 1964, acusado de promover reformas de base com viés esquerdista."
+        },
+        {
+            "question": "O que foram as reformas de base?",
+            "answer": "As reformas de base de João Goulart (1961-1964) incluíam reforma agrária, educacional e bancária, visando maior igualdade social, mas geraram oposição."
+        },
+        {
+            "question": "O que foi o golpe de 1964?",
+            "answer": "O golpe militar de 1964 depôs João Goulart, instaurando uma ditadura que durou até 1985, com repressão, censura e atos institucionais."
+        },
+        {
+            "question": "Quem foi o primeiro presidente da ditadura?",
+            "answer": "Humberto de Alencar Castelo Branco foi o primeiro presidente da ditadura militar (1964-1967), iniciando a repressão e os atos institucionais."
+        },
+        {
+            "question": "O que foi a Constituição de 1967?",
+            "answer": "A Constituição de 1967, promulgada durante a ditadura, ampliou os poderes do Executivo e restringiu liberdades, consolidando o regime autoritário."
+        },
+        {
+            "question": "Quem foi Ernesto Geisel?",
+            "answer": "Ernesto Geisel foi presidente do Brasil (1974-1979) durante a ditadura, iniciando a abertura política lenta e gradual do regime."
+        },
+        {
+            "question": "O que foi a abertura política?",
+            "answer": "A abertura política, iniciada por Geisel e continuada por Figueiredo, foi o processo de transição da ditadura para a democracia, culminando in 1985."
+        },
+        {
+            "question": "Quem foi João Figueiredo?",
+            "answer": "João Figueiredo foi o último presidente da ditadura (1979-1985), responsável por avançar a abertura política e a anistia de presos políticos."
+        },
+        {
+            "question": "O que foi a Lei da Anistia?",
+            "answer": "A Lei da Anistia (1979) permitiu o retorno de exilados e a libertação de presos políticos, mas também anistiou crimes da ditadura, gerando controvérsias."
+        },
+        {
+            "question": "Quem foi Tancredo Neves?",
+            "answer": "Tancredo Neves foi eleito presidente em 1985, mas morreu antes de tomar posse, sendo substituído por José Sarney na redemocratização."
+        },
+        {
+            "question": "O que foi a Constituição de 1988?",
+            "answer": "A Constituição de 1988, chamada 'Constituição Cidadã', consolidou a democracia, garantindo direitos sociais, civis e políticos após a ditadura."
+        },
+        {
+            "question": "Quem foi José Sarney?",
+            "answer": "José Sarney foi presidente do Brasil (1985-1990), assumindo após a morte de Tancredo Neves, enfrentando inflação e crise econômica."
+        },
+        {
+            "question": "O que foi o Plano Verão?",
+            "answer": "O Plano Verão (1989), do governo Sarney, congelou preços e criou o Cruzado Novo, mas falhou em controlar a inflação, agravando a crise econômica."
+        },
+        {
+            "question": "Quem foi Fernando Collor?",
+            "answer": "Fernando Collor de Mello foi presidente do Brasil (1990-1992), o primeiro eleito diretamente após a ditadura, mas sofreu impeachment por corrupção."
+        },
+        {
+            "question": "O que foi o impeachment de Collor?",
+            "answer": "O impeachment de Fernando Collor (1992) foi motivado por denúncias de corrupção, com protestos dos Caras-Pintadas, levando à sua renúncia."
+        },
+        {
+            "question": "Quem foi Itamar Franco?",
+            "answer": "Itamar Franco foi presidente do Brasil (1992-1994), assumindo após o impeachment de Collor, e implementou o Plano Real."
+        },
+        {
+            "question": "Quem foi Fernando Henrique Cardoso?",
+            "answer": "Fernando Henrique Cardoso foi presidente do Brasil (1995-2002), responsável pelo Plano Real e por reformas econômicas e privatizações."
+        },
+        {
+            "question": "O que foi a privatização na era FHC?",
+            "answer": "As privatizações na era FHC (1995-2002) venderam estatais como Vale e Telebrás, visando eficiência econômica, mas geraram controvérsias."
+        },
+        {
+            "question": "Quem foi Lula da Silva?",
+            "answer": "Luiz Inácio Lula da Silva foi presidente do Brasil (2003-2010), promovendo inclusão social, Bolsa Família e crescimento econômico."
+        },
+        {
+            "question": "O que foi o Bolsa Família?",
+            "answer": "O Bolsa Família, criado em 2003 no governo Lula, é um programa de transferência de renda para famílias pobres, visando reduzir a desigualdade."
+        },
+        {
+            "question": "Quem foi Dilma Rousseff?",
+            "answer": "Dilma Rousseff foi presidente do Brasil (2011-2016), a primeira mulher no cargo, mas sofreu impeachment em 2016 por irregularidades fiscais."
+        },
+        {
+            "question": "O que foi o impeachment de Dilma?",
+            "answer": "O impeachment de Dilma Rousseff (2016) foi motivado por 'pedaladas fiscais', com forte polarização política, levando à sua destituição."
+        },
+        {
+            "question": "Quem foi Michel Temer?",
+            "answer": "Michel Temer foi presidente do Brasil (2016-2018), assumindo após o impeachment de Dilma, e implementou reformas como a trabalhista."
+        },
+        {
+            "question": "O que foi a reforma trabalhista de 2017?",
+            "answer": "A reforma trabalhista de 2017, no governo Temer, flexibilizou leis trabalhistas, alterando regras de contratos, negociações e direitos sindicais."
+        },
+        {
+            "question": "Quem foi Jair Bolsonaro?",
+            "answer": "Jair Bolsonaro foi presidente do Brasil (2019-2022), conhecido por políticas conservadoras e polêmicas, como o manejo da pandemia de COVID-19."
+        },
+        {
+            "question": "O que foi a pandemia de COVID-19 no Brasil?",
+            "answer": "A pandemia de COVID-19 (2020-2022) causou mais de 680 mil mortes no Brasil, com polêmicas sobre vacinas e medidas de isolamento no governo Bolsonaro."
+        },
+        {
+            "question": "Quem venceu as eleições de 2022?",
+            "answer": "Luiz Inácio Lula da Silva venceu as eleições de 2022, retornando à presidência do Brasil em 2023, derrotando Jair Bolsonaro."
+        },
+        {
+            "question": "O que foi o ataque de 8 de janeiro?",
+            "answer": "O ataque de 8 de janeiro de 2023 foi uma invasão de apoiadores de Bolsonaro aos prédios do Congresso, STF e Planalto, exigindo intervenção militar."
+        },
+        {
+            "question": "O que foi a Revolta de Vila Rica?",
+            "answer": "A Revolta de Vila Rica (1720), também chamada de Revolta de Filipe dos Santos, foi contra os impostos e Casas de Fundição em Minas Gerais."
+        },
+        {
+            "question": "O que foi o Quilombo dos Palmares?",
+            "answer": "O Quilombo dos Palmares (século XVII) foi uma comunidade de escravos fugidos no Nordeste, liderada por Zumbi, destruída em 1695."
+        },
+        {
+            "question": "Quem foi Zumbi dos Palmares?",
+            "answer": "Zumbi dos Palmares foi o líder do Quilombo dos Palmares, símbolo da resistência contra a escravidão, morto em 1695 pelas forças coloniais."
+        },
+        {
+            "question": "O que foi a Revolta do Malês?",
+            "answer": "A Revolta do Malês (1835), em Salvador, foi um levante de escravos muçulmanos contra a opressão, reprimido com violência pelas autoridades."
+        },
+        {
+            "question": "O que foi o Tratado de Madri?",
+            "answer": "O Tratado de Madri (1750) redefiniu as fronteiras coloniais na América do Sul, ampliando o território português no Brasil, especialmente na Amazônia."
+        },
+        {
+            "question": "Quem foi o Marquês de Pombal?",
+            "answer": "O Marquês de Pombal foi o governante português (1750-1777) que modernizou a administração colonial no Brasil, expulsando os jesuítas em 1759."
+        },
+        {
+            "question": "O que foi a transferência da capital para o Rio?",
+            "answer": "A capital do Brasil foi transferida de Salvador para o Rio de Janeiro em 1763, devido à sua importância econômica e estratégica."
+        },
+        {
+            "question": "O que foi a Revolta dos Alfaiates?",
+            "answer": "A Revolta dos Alfaiates, ou Conjuração Baiana (1798), foi um movimento em Salvador por independência, abolição e igualdade, inspirado pela Revolução Francesa."
+        },
+        {
+            "question": "O que foi a elevação a reino unido?",
+            "answer": "Em 1815, Dom João VI elevou o Brasil a reino unido a Portugal, igualando seu status e facilitando a independência em 1822."
+        },
+        {
+            "question": "O que foi a Constituição de 1824?",
+            "answer": "A Constituição de 1824, outorgada por Dom Pedro I, estabeleceu a monarquia constitucional, com quatro poderes, incluindo o Moderador."
+        },
+        {
+            "question": "O que foi a crise do café no século XIX?",
+            "answer": "A crise do café no século XIX foi causada pela superprodução e queda de preços, afetando a economia brasileira, especialmente São Paulo."
+        },
+        {
+            "question": "O que foi a imigração europeia?",
+            "answer": "A imigração europeia (século XIX e início do XX) trouxe italianos, alemães e outros para o Sul e Sudeste, substituindo a mão de obra escrava."
+        },
+        {
+            "question": "O que foi o abolicionismo?",
+            "answer": "O abolicionismo foi o movimento do século XIX, liderado por figuras como Joaquim Nabuco, que lutou pela abolição da escravidão no Brasil."
+        },
+        {
+            "question": "O que foi a Semana de Arte Moderna?",
+            "answer": "A Semana de Arte Moderna de 1922, em São Paulo, marcou o modernismo no Brasil, com artistas como Anita Malfatti e Mário de Andrade."
+        },
+        {
+            "question": "O que foi a Marcha da Família?",
+            "answer": "A Marcha da Família (1964) foi uma manifestação conservadora contra João Goulart, apoiando o golpe militar que instaurou a ditadura."
+        },
+        {
+            "question": "O que foi a Guerrilha do Araguaia?",
+            "answer": "A Guerrilha do Araguaia (1972-1974), no Pará, foi uma resistência armada de comunistas contra a ditadura, reprimida pelo Exército."
+        },
+        {
+            "question": "O que foi o movimento feminista?",
+            "answer": "O movimento feminista no Brasil ganhou força nas décadas de 1970 e 1980, lutando por direitos das mulheres, como igualdade e combate à violência."
+        },
+        {
+            "question": "O que foi o movimento negro?",
+            "answer": "O movimento negro, intensificado na década de 1970, luta contra o racismo e pela igualdade racial, com destaque para o Movimento Negro Unificado."
+        },
+        {
+            "question": "O que foi a criação do MST?",
+            "answer": "O Movimento dos Sem-Terra (MST), fundado em 1984, luta pela reforma agrária e direitos dos trabalhadores rurais no Brasil."
+        },
+        {
+            "question": "O que foi o escândalo do Mensalão?",
+            "answer": "O escândalo do Mensalão (2005), no governo Lula, envolveu denúncias de compra de votos no Congresso, abalando a popularidade do governo."
+        },
+        {
+            "question": "O que foi a Operação Lava Jato?",
+            "answer": "A Operação Lava Jato (2014-2021) foi uma investigação de corrupção na Petrobras, revelando esquemas envolvendo políticos e empresas."
+        },
+        {
+            "question": "O que foi a crise econômica de 2014-2016?",
+            "answer": "A crise econômica de 2014-2016, no governo Dilma, foi marcada por recessão, desemprego e inflação, agravada por escândalos políticos."
+        },
+        {
+            "question": "O que foi a greve dos caminhoneiros de 2018?",
+            "answer": "A greve dos caminhoneiros de 2018 paralisou o Brasil, protestando contra o aumento do diesel, causando desabastecimento e crise econômica."
+        },
+        {
+            "question": "O que foi a reforma da previdência de 2019?",
+            "answer": "A reforma da previdência de 2019, no governo Bolsonaro, alterou regras de aposentadoria, aumentando a idade mínima e o tempo de contribuição."
+        },
+        {
+            "question": "O que foi o incêndio no Museu Nacional?",
+            "answer": "O incêndio no Museu Nacional (2018), no Rio de Janeiro, destruiu grande parte do acervo histórico e cultural, expondo a falta de investimentos."
+        },
+        {
+            "question": "O que foi o rompimento da barragem de Brumadinho?",
+            "answer": "O rompimento da barragem de Brumadinho (2019), em Minas Gerais, causou 270 mortes e danos ambientais, expondo falhas na mineração."
+        },
+        {
+            "question": "O que foi a crise amazônica de 2019?",
+            "answer": "A crise amazônica de 2019 foi marcada por aumento de queimadas e desmatamento, gerando críticas internacionais ao governo Bolsonaro."
+        },
+        {
+            "question": "O que foi a criação do Pix?",
+            "answer": "O Pix, criado em 2020 pelo Banco Central, é um sistema de pagamentos instantâneos, revolucionando transações financeiras no Brasil."
+        },
+        {
+            "question": "O que foi a CPI da COVID-19?",
+            "answer": "A CPI da COVID-19 (2021) investigou a gestão da pandemia pelo governo Bolsonaro, apontando irregularidades na compra de vacinas e negacionismo."
+        }
+    ]
+}

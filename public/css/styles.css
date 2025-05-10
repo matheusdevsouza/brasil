@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-4 py-2 rounded hover:bg-secondary transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300 transition-colors;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+  
+  .input {
+    @apply border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Classes de Utilidade */
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-slide-in {
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+.animate-pulse-slow {
+    animation: pulse 2s infinite;
+}
+
+/* Estilos Personalizados */
+.section-title {
+    @apply text-3xl font-bold text-gray-800 mb-4;
+}
+
+.section-subtitle {
+    @apply text-lg text-gray-600 mb-8;
+}
+
+.card-hover {
+    @apply transform transition-transform duration-300 hover:scale-105;
+}
+
+/* Estilos do Chat */
+.chat-message {
+    @apply p-4 rounded-lg mb-4 max-w-[80%];
+}
+
+.chat-message.user {
+    @apply bg-primary text-white ml-auto;
+}
+
+.chat-message.bot {
+    @apply bg-gray-100 text-gray-800;
+}
+
+/* Estilos da Timeline */
+.timeline-item {
+    @apply relative pl-8 pb-8;
+}
+
+.timeline-item::before {
+    content: '';
+    @apply absolute left-0 top-0 w-4 h-4 bg-primary rounded-full;
+}
+
+.timeline-item::after {
+    content: '';
+    @apply absolute left-2 top-4 w-0.5 h-full bg-gray-200;
+}
+
+.timeline-item:last-child::after {
+    @apply hidden;
+}
+
+/* Estilos do Quiz */
+.quiz-option {
+    @apply flex items-center p-3 border rounded-lg cursor-pointer hover:bg-gray-50 transition-colors duration-200;
+}
+
+.quiz-option.selected {
+    @apply border-primary bg-primary/5;
+}
+
+/* Estilos do Footer */
+.footer-link {
+    @apply text-gray-600 hover:text-primary transition-colors duration-200;
+}
+
+/* Estilos do Header */
+.nav-link {
+    @apply text-gray-600 hover:text-primary transition-colors duration-200;
+}
+
+.nav-link.active {
+    @apply text-primary font-semibold;
+}
+
+/* Estilos do Botão do Chat */
+.chat-button {
+    @apply fixed bottom-6 right-6 w-14 h-14 bg-primary text-white rounded-full shadow-lg flex items-center justify-center hover:bg-secondary transition-colors duration-200;
+}
+
+/* Estilos do Modal */
+.modal-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center;
+}
+
+.modal-content {
+    @apply bg-white rounded-lg p-6 max-w-md w-full mx-4;
+}
+
+/* Estilos de Responsividade */
+@media (max-width: 640px) {
+    .section-title {
+        @apply text-2xl;
+    }
+    
+    .section-subtitle {
+        @apply text-base;
+    }
+    
+    .chat-message {
+        @apply max-w-[90%];
+    }
+} 

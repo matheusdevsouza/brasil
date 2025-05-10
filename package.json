@@ -1,0 +1,14 @@
+{
+  "name": "brasil-verde",
+  "version": "1.0.0",
+  "description": "Plataforma educacional sobre a história do Brasil",
+  "scripts": {
+    "build": "tailwindcss -i ./public/css/styles.css -o ./public/css/output.css",
+    "watch": "tailwindcss -i ./public/css/styles.css -o ./public/css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21"
+  }
+} 
