@@ -1,6 +1,6 @@
 # Brasil Verde - Plataforma Educacional
 
-Uma plataforma educacional interativa sobre a história do Brasil, desenvolvida com PHP, JavaScript e MySQL.
+Brasil Verde é uma plataforma educacional interativa sobre a história do Brasil, desenvolvida com PHP, JavaScript e MySQL.
 
 ## Novidades e Mudanças Recentes
 
@@ -137,18 +137,10 @@ npm run dev
 npm run build
 ```
 
-## Contribuição
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Crie um Pull Request
-
 ## Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## Suporte
 
-Para suporte, envie um email para hwody@souzadev.com ou abra uma issue no GitHub. 
+Para suporte, envie um email para howdy@souzadev.com ou abra uma issue no GitHub. 
