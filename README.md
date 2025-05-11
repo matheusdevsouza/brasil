@@ -2,31 +2,57 @@
 
 Uma plataforma educacional interativa sobre a história do Brasil, desenvolvida com PHP, JavaScript e MySQL.
 
+## Novidades e Mudanças Recentes
+
+- **Chatbot Caramelo Bot totalmente local:**
+  - Agora utiliza um sistema próprio baseado em `data.json`, sem dependência de APIs externas.
+  - Sugestões de perguntas aparecem dinamicamente enquanto o usuário digita.
+  - Efeito typewriter nas respostas do bot.
+  - Interface aprimorada e mais responsiva.
+- **Remoção do Gemini AI:**
+  - O chatbot não utiliza mais a API Gemini, tornando o sistema 100% local e sem necessidade de chave de API.
+- **Quiz aprimorado:**
+  - Sistema de rounds: cada round possui 5 perguntas.
+  - Mensagem de parabéns ao atingir 40 pontos ou mais no décimo round.
+  - Visual renovado e responsivo.
+- **Linha do tempo expandida:**
+  - Mais eventos históricos, organizados em ordem cronológica.
+  - Novos filtros detalhados: Pré-Colonial, Brasil Colônia, Brasil Império, Primeira República, Era Vargas, Ditadura Militar, Nova República.
+- **Galeria de imagens:**
+  - Galeria estática com imagens históricas e culturais, sem necessidade de banco de dados.
+- **Curiosidades:**
+  - Muitas novas curiosidades históricas, culturais, naturais, científicas e econômicas adicionadas na homepage e na página de curiosidades.
+  - Novas categorias de curiosidades e filtros visuais.
+- **Melhorias visuais e de usabilidade:**
+  - Animações de entrada, hover e transições em cards, botões e containers.
+  - Layouts mais modernos e responsivos em todas as páginas.
+- **Remoção de funcionalidades:**
+  - Todo o sistema de login/autenticação foi removido.
+  - Dependências e arquivos relacionados ao Gemini AI e banco de dados para galeria foram removidos.
+
 ## Características
 
 - Interface moderna e responsiva
-- Linha do tempo interativa
-- Quiz educativo
-- Curiosidades históricas
-- Chatbot inteligente (Caramelo Bot) usando Gemini AI
-- Painel administrativo
-- Sistema de métricas
+- Linha do tempo interativa e expandida
+- Quiz educativo com rounds
+- Curiosidades históricas, culturais, naturais e científicas
+- Chatbot inteligente (Caramelo Bot) com sugestões e efeito typewriter
+- Galeria de imagens estática
 
 ## Requisitos
 
 - PHP 7.4 ou superior
-- MySQL 5.7 ou superior
+- MySQL 5.7 ou superior (apenas para recursos administrativos)
 - Servidor web (Apache/Nginx)
 - Composer (para gerenciamento de dependências)
 - Node.js e NPM (para o Tailwind CSS)
-- Chave de API do Google Gemini
 
 ## Instalação
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/brasil-verde.git
-cd brasil-verde
+git clone https://github.com/matheusdevsouza/brasil.git
+cd CarameloBOT
 ```
 
 2. Instale as dependências do PHP:
@@ -39,8 +65,8 @@ composer install
 npm install
 ```
 
-4. Configure o banco de dados:
-- Crie um banco de dados MySQL
+4. Configure o banco de dados (opcional):
+- Crie um banco de dados MySQL se for usar recursos administrativos
 - Importe o arquivo `config/database.sql`
 - Configure as credenciais em `config/config.php`
 
@@ -67,8 +93,7 @@ cp config/config.example.php config/config.php
 ```
 
 2. Edite o arquivo `config/config.php` com suas configurações:
-- Credenciais do banco de dados
-- Chave da API Gemini (obtenha em https://makersuite.google.com/app/apikey)
+- Credenciais do banco de dados (opcional)
 - Configurações de email
 - Outras configurações específicas
 
@@ -76,12 +101,8 @@ cp config/config.example.php config/config.php
 
 1. Acesse a aplicação pelo navegador:
 ```
-http://localhost/brasil-verde
+http://localhost/CarameloBOT
 ```
-
-2. Credenciais padrão do administrador:
-- Email: admin@brasilverde.edu.br
-- Senha: admin123
 
 2. O chatbot Caramelo Bot estará disponível no canto inferior direito da tela.
 
@@ -130,4 +151,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Suporte
 
-Para suporte, envie um email para suporte@brasilverde.edu.br ou abra uma issue no GitHub. 
+Para suporte, envie um email para hwody@souzadev.com ou abra uma issue no GitHub. 
