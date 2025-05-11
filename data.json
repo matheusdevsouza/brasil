@@ -317,8 +317,8 @@
             "answer": "A proclamação da República (1889) foi liderada por militares e civis insatisfeitos com a monarquia, culminando na deposição de Dom Pedro II."
         },
         {
-            "question": "Quem foi o primeiro presidente do Brasil?",
-            "answer": "Deodoro da Fonseca foi o primeiro presidente do Brasil, assumindo o cargo em 1889 após a proclamação da República."
+            "question": "Deodoro da Fonseca foi o primeiro presidente do Brasil?",
+            "answer": "Sim, Deodoro da Fonseca foi o primeiro presidente do Brasil, assumindo o cargo em 1889 após a proclamação da República."
         },
         {
             "question": "O que foi a política café-com-leite?",
@@ -623,6 +623,423 @@
         {
             "question": "O que foi a CPI da COVID-19?",
             "answer": "A CPI da COVID-19 (2021) investigou a gestão da pandemia pelo governo Bolsonaro, apontando irregularidades na compra de vacinas e negacionismo."
+        },
+        {
+            "question": "O que foi a Revolta da Sabinada?",
+            "answer": "A Revolta da Sabinada (1837-1838) foi um movimento separatista em Salvador, Bahia, liderado por Francisco Sabino, que buscava estabelecer uma república independente. Foi reprimida pelo governo regencial, com cerca de 1.800 mortos."
+        },
+        {
+            "question": "Quem foi José Bonifácio de Andrada e Silva?",
+            "answer": "José Bonifácio de Andrada e Silva, conhecido como 'Patriarca da Independência', foi ministro de Dom Pedro I, organizando a independência do Brasil em 1822 e defendendo a abolição gradual da escravidão."
+        },
+        {
+            "question": "O que foi o Tratado de Santo Ildefonso?",
+            "answer": "O Tratado de Santo Ildefonso (1777) ajustou as fronteiras coloniais entre Portugal e Espanha, garantindo a posse portuguesa da região do atual Rio Grande do Sul, no sul do Brasil."
+        },
+        {
+            "question": "O que foi a Revolta dos Cabanos?",
+            "answer": "A Revolta dos Cabanos (1832-1835), em Pernambuco, foi um levante de camponeses e escravos contra a miséria e a opressão das elites, reprimido com violência pelas forças do governo regencial."
+        },
+        {
+            "question": "Quem foi Diogo Antônio Feijó?",
+            "answer": "Diogo Antônio Feijó foi regente do Brasil (1835-1837) durante o Período Regencial, tentando estabilizar o país em meio a revoltas, mas renunciou devido a conflitos políticos."
+        },
+        {
+            "question": "O que foi o ciclo da borracha?",
+            "answer": "O ciclo da borracha (final do século XIX a início do XX) foi a exploração da borracha na Amazônia, enriquecendo cidades como Manaus e Belém, mas entrou em declínio com a concorrência asiática."
+        },
+        {
+            "question": "O que foi a Revolta do Contestado?",
+            "answer": "A Revolta do Contestado (1912-1916), em Santa Catarina e Paraná, foi um conflito entre camponeses e o governo, liderado por monges messiânicos, contra a perda de terras, resultando em milhares de mortes."
+        },
+        {
+            "question": "Quem foi Princesa Isabel?",
+            "answer": "Princesa Isabel, filha de Dom Pedro II, foi regente do Brasil em três ocasiões e assinou a Lei Áurea em 1888, abolindo a escravidão, tornando-se um símbolo do abolicionismo."
+        },
+        {
+            "question": "O que foi a política de valorização do café?",
+            "answer": "A política de valorização do café, iniciada no início do século XX, envolveu a compra de excedentes de café pelo governo para manter os preços, beneficiando os cafeicultores durante a República Velha."
+        },
+        {
+            "question": "O que foi a criação do IBGE?",
+            "answer": "O Instituto Brasileiro de Geografia e Estatística (IBGE), criado em 1936 no governo Vargas, organiza censos e produz dados estatísticos, fundamentais para o planejamento do país."
+        },
+        {
+            "question": "O que foi a Revolta dos Malês?",
+            "answer": "A Revolta dos Malês (1835), em Salvador, foi um levante de escravos muçulmanos contra a opressão, buscando liberdade e melhores condições, mas foi duramente reprimida."
+        },
+        {
+            "question": "Quem foi Tomé de Sousa?",
+            "answer": "Tomé de Sousa foi o primeiro governador-geral do Brasil (1549-1553), fundando Salvador, a primeira capital, e organizando a administração colonial portuguesa."
+        },
+        {
+            "question": "O que foi a Companhia das Índias Ocidentais?",
+            "answer": "A Companhia das Índias Ocidentais, criada pelos holandeses, administrou a ocupação do Nordeste brasileiro (1630-1654), promovendo o comércio e a urbanização durante o domínio holandês."
+        },
+        {
+            "question": "Quem foi João Fernandes Vieira?",
+            "answer": "João Fernandes Vieira foi um líder da Insurreição Pernambucana (1645-1654), que expulsou os holandeses do Nordeste, restaurando o domínio português no Brasil."
+        },
+        {
+            "question": "O que foi a Guerra dos Mascates?",
+            "answer": "A Guerra dos Mascates (1710-1711), em Pernambuco, foi um conflito entre comerciantes portugueses (mascates) e a elite local de Olinda, disputando o controle econômico e político."
+        },
+        {
+            "question": "Quem foi Alexandre de Gusmão?",
+            "answer": "Alexandre de Gusmão foi um diplomata português que negociou o Tratado de Madri (1750), expandindo o território brasileiro para além dos limites do Tratado de Tordesilhas."
+        },
+        {
+            "question": "O que foi a expulsão dos jesuítas?",
+            "answer": "A expulsão dos jesuítas do Brasil, em 1759, ordenada pelo Marquês de Pombal, visava reduzir a influência da Igreja e centralizar o poder colonial português."
+        },
+        {
+            "question": "O que foi a transferência da capital para o Rio de Janeiro?",
+            "answer": "Em 1763, a capital do Brasil foi transferida de Salvador para o Rio de Janeiro, devido à sua posição estratégica e importância econômica no ciclo do ouro."
+        },
+        {
+            "question": "Quem foi Cipriano Barata?",
+            "answer": "Cipriano Barata foi um jornalista e líder da Revolução Pernambucana de 1817, defendendo ideias republicanas e a independência do Brasil."
+        },
+        {
+            "question": "O que foi o Dia do Fico?",
+            "answer": "O Dia do Fico (9 de janeiro de 1822) foi quando Dom Pedro I decidiu permanecer no Brasil, desobedecendo ordens de retornar a Portugal, iniciando o processo de independência."
+        },
+        {
+            "question": "Quem foi Maria Quitéria?",
+            "answer": "Maria Quitéria foi uma heroína da Independência do Brasil, que lutou disfarçada de homem nas guerras contra os portugueses na Bahia em 1822-1823."
+        },
+        {
+            "question": "O que foi a Constituição de 1824?",
+            "answer": "A Constituição de 1824, outorgada por Dom Pedro I, estabeleceu a monarquia constitucional com quatro poderes, incluindo o Poder Moderador, exclusivo do imperador."
+        },
+        {
+            "question": "Quem foi Frei Caneca?",
+            "answer": "Frei Caneca foi um líder da Confederação do Equador (1824), em Pernambuco, defendendo ideias republicanas, sendo executado pelo governo imperial."
+        },
+        {
+            "question": "O que foi a Guerra da Independência na Bahia?",
+            "answer": "A Guerra da Independência na Bahia (1822-1823) foi um conflito contra as tropas portuguesas, garantindo a consolidação da independência brasileira na região."
+        },
+        {
+            "question": "Quem foi Eusébio de Queirós?",
+            "answer": "Eusébio de Queirós foi o ministro que promulgou a Lei Eusébio de Queirós (1850), proibindo o tráfico negreiro no Brasil, sob pressão internacional."
+        },
+        {
+            "question": "O que foi a Lei Feijó?",
+            "answer": "A Lei Feijó (1831) tentou proibir o tráfico de escravos para o Brasil, mas foi ineficaz devido à falta de fiscalização e à resistência dos escravistas."
+        },
+        {
+            "question": "Quem foi Luís Alves de Lima e Silva?",
+            "answer": "Luís Alves de Lima e Silva, o Duque de Caxias, foi um militar brasileiro que liderou a repressão a revoltas no Período Regencial e venceu a Guerra do Paraguai."
+        },
+        {
+            "question": "O que foi a Revolta dos Liberais de 1842?",
+            "answer": "A Revolta dos Liberais de 1842, em São Paulo e Minas Gerais, foi um levante contra o governo centralizado de Dom Pedro II, exigindo maior autonomia."
+        },
+        {
+            "question": "Quem foi Joaquim Nabuco?",
+            "answer": "Joaquim Nabuco foi um abolicionista, escritor e diplomata, autor de 'O Abolicionismo' (1883), que defendeu o fim da escravidão no Brasil."
+        },
+        {
+            "question": "O que foi a imigração japonesa no Brasil?",
+            "answer": "A imigração japonesa no Brasil começou em 1908, com a chegada do navio Kasato Maru, trazendo trabalhadores para as fazendas de café em São Paulo."
+        },
+        {
+            "question": "Quem foi André Rebouças?",
+            "answer": "André Rebouças foi um engenheiro e abolicionista brasileiro, que defendeu a abolição da escravidão e projetos de inclusão social para ex-escravos."
+        },
+        {
+            "question": "O que foi a Revolta da Praieira?",
+            "answer": "A Revolta da Praieira (1848-1849), em Pernambuco, foi um movimento liberal contra o conservadorismo imperial, exigindo reformas sociais e políticas."
+        },
+        {
+            "question": "Quem foi Benjamin Constant?",
+            "answer": "Benjamin Constant foi um militar e político republicano, líder da proclamação da República em 1889 e defensor do positivismo no Brasil."
+        },
+        {
+            "question": "O que foi a política do encilhamento?",
+            "answer": "A política do encilhamento (1890-1891), sob Rui Barbosa, foi uma tentativa de modernizar a economia, mas gerou especulação financeira e inflação."
+        },
+        {
+            "question": "Quem foi Prudente de Morais?",
+            "answer": "Prudente de Morais foi o primeiro presidente civil do Brasil (1894-1898), estabilizando a República após conflitos como a Revolta da Armada."
+        },
+        {
+            "question": "O que foi a Revolta da Escola Militar de 1897?",
+            "answer": "A Revolta da Escola Militar de 1897, no Rio de Janeiro, foi um levante de cadetes contra o governo, reprimido rapidamente pelas forças federais."
+        },
+        {
+            "question": "Quem foi Campos Sales?",
+            "answer": "Campos Sales foi presidente do Brasil (1898-1902), implementando o 'funding loan', acordo que renegociou a dívida externa, mas gerou austeridade."
+        },
+        {
+            "question": "O que foi o Convênio de Taubaté?",
+            "answer": "O Convênio de Taubaté (1906) foi um acordo entre São Paulo, Minas Gerais e Rio de Janeiro para financiar a valorização do café, estabilizando sua exportação."
+        },
+        {
+            "question": "Quem foi Hermes da Fonseca?",
+            "answer": "Hermes da Fonseca foi presidente do Brasil (1910-1914), enfrentando a Revolta da Chibata e promovendo a modernização do Exército."
+        },
+        {
+            "question": "O que foi a política das salvações?",
+            "answer": "A política das salvações, na República Velha, envolvia intervenções federais nos estados para garantir o controle das oligarquias aliadas ao governo."
+        },
+        {
+            "question": "Quem foi Venceslau Brás?",
+            "answer": "Venceslau Brás foi presidente do Brasil (1914-1918), liderando o país durante a Primeira Guerra Mundial e enfrentando a Revolta do Contestado."
+        },
+        {
+            "question": "O que foi a greve geral de 1917?",
+            "answer": "A greve geral de 1917, em São Paulo, foi um movimento operário por melhores condições de trabalho, marcando o crescimento do movimento sindical."
+        },
+        {
+            "question": "Quem foi Epitácio Pessoa?",
+            "answer": "Epitácio Pessoa foi presidente do Brasil (1919-1922), promovendo obras de infraestrutura, mas enfrentando crises econômicas e a Revolta dos 18 do Forte."
+        },
+        {
+            "question": "O que foi o movimento operário no início do século XX?",
+            "answer": "O movimento operário, no início do século XX, cresceu com greves e sindicatos, exigindo direitos trabalhistas em cidades como São Paulo e Rio de Janeiro."
+        },
+        {
+            "question": "Quem foi Artur Bernardes?",
+            "answer": "Artur Bernardes foi presidente do Brasil (1922-1926), enfrentando a Revolta dos 18 do Forte e a Coluna Prestes, governando sob estado de sítio."
+        },
+        {
+            "question": "O que foi a Revolta Paulista de 1924?",
+            "answer": "A Revolta Paulista de 1924 foi um levante tenentista em São Paulo, liderado por Isidoro Dias Lopes, contra o governo de Artur Bernardes."
+        },
+        {
+            "question": "Quem foi Prestes Maia?",
+            "answer": "Prestes Maia foi um engenheiro e prefeito de São Paulo, responsável pelo Plano de Avenidas (1930), que modernizou a infraestrutura da cidade."
+        },
+        {
+            "question": "O que foi a Revolução de 1935?",
+            "answer": "A Revolução de 1935, ou Intentona Comunista, foi uma tentativa de golpe liderada por Luís Carlos Prestes, reprimida pelo governo Vargas."
+        },
+        {
+            "question": "Quem foi Filinto Müller?",
+            "answer": "Filinto Müller foi chefe de polícia no Estado Novo, responsável pela repressão política, perseguindo opositores do regime de Getúlio Vargas."
+        },
+        {
+            "question": "O que foi o Departamento de Imprensa e Propaganda (DIP)?",
+            "answer": "O Departamento de Imprensa e Propaganda (DIP), criado em 1939, controlava a mídia e promovia a propaganda do Estado Novo, censurando opositores."
+        },
+        {
+            "question": "Quem foi Oswaldo Aranha?",
+            "answer": "Oswaldo Aranha foi ministro das Relações Exteriores de Vargas, articulando a entrada do Brasil na Segunda Guerra Mundial ao lado dos Aliados."
+        },
+        {
+            "question": "O que foi a campanha 'O petróleo é nosso'?",
+            "answer": "A campanha 'O petróleo é nosso', na década de 1950, defendeu a criação da Petrobras e o monopólio estatal do petróleo, liderada por nacionalistas."
+        },
+        {
+            "question": "Quem foi Café Filho?",
+            "answer": "Café Filho foi presidente do Brasil (1954-1955), assumindo após o suicídio de Vargas, mas foi afastado por um golpe militar em 1955."
+        },
+        {
+            "question": "O que foi a crise política de 1955?",
+            "answer": "A crise política de 1955 envolveu tentativas de impedir a posse de Juscelino Kubitschek, com golpes militares, mas ele assumiu com apoio popular."
+        },
+        {
+            "question": "Quem foi Lúcio Costa?",
+            "answer": "Lúcio Costa foi o urbanista que projetou o plano piloto de Brasília, definindo o layout da nova capital inaugurada em 1960."
+        },
+        {
+            "question": "O que foi a renúncia de Jânio Quadros?",
+            "answer": "Jânio Quadros renunciou à presidência em 1961, após sete meses, alegando 'forças ocultas', gerando uma crise que levou à posse de João Goulart."
+        },
+        {
+            "question": "Quem foi Leonel Brizola?",
+            "answer": "Leonel Brizola foi governador do Rio Grande do Sul e líder da Campanha da Legalidade (1961), garantindo a posse de João Goulart."
+        },
+        {
+            "question": "O que foi a Campanha da Legalidade?",
+            "answer": "A Campanha da Legalidade (1961), liderada por Leonel Brizola, mobilizou a sociedade para garantir a posse de João Goulart após a renúncia de Jânio Quadros."
+        },
+        {
+            "question": "Quem foi Costa e Silva?",
+            "answer": "Artur da Costa e Silva foi presidente da ditadura (1967-1969), responsável pelo AI-5, intensificando a repressão política no Brasil."
+        },
+        {
+            "question": "O que foi a Passeata dos Cem Mil?",
+            "answer": "A Passeata dos Cem Mil (1968), no Rio de Janeiro, foi uma manifestação contra a ditadura militar, reunindo estudantes, artistas e intelectuais."
+        },
+        {
+            "question": "Quem foi Médici?",
+            "answer": "Emílio Garrastazu Médici foi presidente da ditadura (1969-1974), governando durante o auge do Milagre Econômico e da repressão política."
+        },
+        {
+            "question": "O que foi a censura na ditadura militar?",
+            "answer": "A censura na ditadura militar (1964-1985) controlava imprensa, artes e comunicações, proibindo conteúdos considerados subversivos ao regime."
+        },
+        {
+            "question": "Quem foi Carlos Marighella?",
+            "answer": "Carlos Marighella foi um líder guerrilheiro, autor do 'Manual do Guerrilheiro Urbano', que organizou a resistência armada contra a ditadura."
+        },
+        {
+            "question": "O que foi a luta armada na ditadura?",
+            "answer": "A luta armada (1960-1970) envolveu grupos como a ALN e o MR-8, que usaram guerrilhas e ações urbanas contra a ditadura, sendo reprimidos."
+        },
+        {
+            "question": "Quem foi Vladimir Herzog?",
+            "answer": "Vladimir Herzog foi um jornalista assassinado em 1975 pela ditadura, cujo caso gerou protestos e aumentou a pressão pela redemocratização."
+        },
+        {
+            "question": "O que foi a Lei Falcão?",
+            "answer": "A Lei Falcão (1976) limitou a propaganda eleitoral na TV durante a ditadura, restringindo debates e favorecendo candidatos governistas."
+        },
+        {
+            "question": "Quem foi Franco Montoro?",
+            "answer": "Franco Montoro foi governador de São Paulo (1983-1987), líder do MDB e defensor da redemocratização durante a campanha das Diretas Já."
+        },
+        {
+            "question": "O que foi o Pacote de Abril?",
+            "answer": "O Pacote de Abril (1977), decretado por Geisel, alterou regras eleitorais para manter o controle do governo na ditadura, gerando protestos."
+        },
+        {
+            "question": "Quem foi Mário Covas?",
+            "answer": "Mário Covas foi governador de São Paulo (1995-2001), líder do PSDB e defensor da democracia, participando da redemocratização."
+        },
+        {
+            "question": "O que foi a Nova República?",
+            "answer": "A Nova República (1985-presente) é o período democrático iniciado com o fim da ditadura, marcado pela Constituição de 1988 e eleições diretas."
+        },
+        {
+            "question": "Quem foi Ulysses Guimarães?",
+            "answer": "Ulysses Guimarães foi presidente da Assembleia Constituinte de 1988, líder do MDB e figura central na redemocratização do Brasil."
+        },
+        {
+            "question": "O que foi o Plano Brady?",
+            "answer": "O plano Brady (1989) renegociou a dívida externa do Brasil, reduzindo encargos e facilitando a estabilização econômica na década de 1990."
+        },
+        {
+            "question": "Quem foi Zélia Cardoso de Mello?",
+            "answer": "Zélia Cardoso de Mello foi ministra da Economia de Collor, responsável pelo Plano Collor, que confiscou poupanças e tentou controlar a inflação."
+        },
+        {
+            "question": "O que foi a ECO-92?",
+            "answer": "A ECO-92, ou Conferência do Rio, foi um evento da ONU em 1992 sobre meio ambiente, promovendo acordos como a Agenda 21 e a Convenção do Clima."
+        },
+        {
+            "question": "Quem foi Ruth Cardoso?",
+            "answer": "Ruth Cardoso foi primeira-dama e antropóloga, criadora do programa Comunidade Solidária, que influenciou políticas sociais no governo FHC."
+        },
+        {
+            "question": "O que foi o apagão elétrico de 2001?",
+            "answer": "O apagão elétrico de 2001, no governo FHC, foi uma crise energética que levou a racionamentos devido à falta de investimentos em infraestrutura."
+        },
+        {
+            "question": "Quem foi José Alencar?",
+            "answer": "José Alencar foi vice-presidente do Brasil (2003-2010) no governo Lula, empresário e aliado político, contribuindo para a estabilidade do governo."
+        },
+        {
+            "question": "O que foi o programa Fome Zero?",
+            "answer": "O programa Fome Zero, lançado em 2003 por Lula, visava combater a fome e a pobreza, sendo integrado ao Bolsa Família posteriormente."
+        },
+        {
+            "question": "Quem foi Celso Furtado?",
+            "answer": "Celso Furtado foi um economista e intelectual, autor de 'Formação Econômica do Brasil', que analisou o subdesenvolvimento do país."
+        },
+        {
+            "question": "O que foi o PROUNI?",
+            "answer": "O PROUNI, criado em 2004 no governo Lula, oferece bolsas de estudo em universidades privadas para estudantes de baixa renda."
+        },
+        {
+            "question": "Quem foi Marina Silva?",
+            "answer": "Marina Silva foi ministra do Meio Ambiente (2003-2008) no governo Lula, defensora da sustentabilidade e candidata presidencial em 2010."
+        },
+        {
+            "question": "O que foi a descoberta do pré-sal?",
+            "answer": "A descoberta do pré-sal, em 2006, revelou grandes reservas de petróleo na costa brasileira, impulsionando a economia e a Petrobras."
+        },
+        {
+            "question": "Quem foi Antônio Palocci?",
+            "answer": "Antônio Palocci foi ministro da Fazenda (2003-2006) no governo Lula, implementando políticas econômicas que estabilizaram a economia."
+        },
+        {
+            "question": "O que foi o PAC?",
+            "answer": "O Programa de Aceleração do Crescimento (PAC), lançado em 2007, investiu em infraestrutura, como estradas e energia, no governo Lula."
+        },
+        {
+            "question": "Quem foi Guido Mantega?",
+            "answer": "Guido Mantega foi ministro da Fazenda (2006-2014) nos governos Lula e Dilma, liderando políticas econômicas durante a crise global de 2008."
+        },
+        {
+            "question": "O que foi a Copa do Mundo de 2014?",
+            "answer": "A Copa do Mundo de 2014, sediada no Brasil, trouxe investimentos em infraestrutura, mas gerou protestos contra gastos públicos e corrupção."
+        },
+        {
+            "question": "Quem foi Eduardo Campos?",
+            "answer": "Eduardo Campos foi governador de Pernambuco e candidato presidencial em 2014, morrendo em um acidente aéreo durante a campanha."
+        },
+        {
+            "question": "O que foi a Jornada de Junho de 2013?",
+            "answer": "As Jornadas de Junho de 2013 foram protestos em massa contra o aumento das tarifas de transporte e por melhorias em serviços públicos."
+        },
+        {
+            "question": "Quem foi Joaquim Barbosa?",
+            "answer": "Joaquim Barbosa foi presidente do STF (2012-2014), liderando o julgamento do Mensalão, marcando a luta contra a corrupção."
+        },
+        {
+            "question": "O que foi a Comissão da Verdade?",
+            "answer": "A Comissão Nacional da Verdade (2012-2014) investigou violações de direitos humanos durante a ditadura militar, buscando justiça e memória."
+        },
+        {
+            "question": "Quem foi Sérgio Moro?",
+            "answer": "Sérgio Moro foi juiz responsável pela Operação Lava Jato, liderando investigações de corrupção, e ministro da Justiça no governo Bolsonaro."
+        },
+        {
+            "question": "O que foi a crise hídrica de 2014-2015?",
+            "answer": "A crise hídrica de 2014-2015, no Sudeste, causou escassez de água em São Paulo, expondo problemas de gestão de recursos hídricos."
+        },
+        {
+            "question": "Quem foi Teori Zavascki?",
+            "answer": "Teori Zavascki foi ministro do STF, relator da Lava Jato, cuja morte em 2017 gerou controvérsias durante as investigações de corrupção."
+        },
+        {
+            "question": "O que foi o teto de gastos?",
+            "answer": "O teto de gastos, aprovado em 2016 no governo Temer, limitou o crescimento das despesas públicas por 20 anos, visando o equilíbrio fiscal."
+        },
+        {
+            "question": "Quem foi Joesley Batista?",
+            "answer": "Joesley Batista, empresário da JBS, gravou Michel Temer em 2017, desencadeando uma crise política com denúncias de corrupção."
+        },
+        {
+            "question": "O que foi a greve geral de 2017?",
+            "answer": "A greve geral de 2017 protestou contra as reformas trabalhista e da previdência do governo Temer, paralisando cidades em todo o Brasil."
+        },
+        {
+            "question": "Quem foi Marielle Franco?",
+            "answer": "Marielle Franco foi vereadora do Rio de Janeiro, assassinada em 2018, símbolo da luta por direitos humanos e contra a violência."
+        },
+        {
+            "question": "O que foi a facada em Bolsonaro?",
+            "answer": "Em 2018, Jair Bolsonaro sofreu um atentado a faca durante a campanha presidencial, influenciando a dinâmica das eleições."
+        },
+        {
+            "question": "Quem foi Paulo Guedes?",
+            "answer": "Paulo Guedes foi ministro da Economia (2019-2022) no governo Bolsonaro, implementando reformas liberais, como a da previdência."
+        },
+        {
+                "question": "Como você está, caramelo?",
+            "answer": "Eu estou ótimo! Estou aqui para te ajudar a aprender sobre a história do Brasil. Como posso ajudar você hoje?"
+        },
+        {
+            "question": "Olá",
+            "answer": "Olá! Eu sou o Caramelo Bot, o cachorro caramelo mais charmoso e mais adorado pelos brasileiros. Mas me fala aí, qual é a boa de hoje? O que você quer saber sobre o Brasil?"
+        },
+        {
+            "question": "Oi",
+            "answer": "Eaí, meu querido! Me chamo Caramelo Bot, o cachorro caramelo mais simpático e mais adorado pelos brasileiros. Me conta aí, qual a sua dúvida sobre o nosso lindo país?"
+        },
+        {
+            "question": "Salve",
+            "answer": "Tá salvado!"
+        },
+        {
+            "question": "Ping",
+            "answer": "Pong! Ah.. Foi mal... Achei que era uma partida de tênis. Mas sim, eu estou vivo e minha latência é menor que o tempo que você leva para piscar!"
         }
+        
     ]
 }

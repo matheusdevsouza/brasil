@@ -7,7 +7,6 @@
         "ext-pdo": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "google/cloud-ai-platform": "^0.1.0",
         "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {

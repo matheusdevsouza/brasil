@@ -1,9 +1,6 @@
 <?php
 header('Content-Type: application/json');
 require_once '../config/config.php';
-require_once '../vendor/autoload.php';
-
-use Google\GenerativeAI;
 
 // Verificando se é uma requisição POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -20,81 +17,54 @@ if (!isset($data['message'])) {
 }
 
 $message = $data['message'];
-$history = $data['history'] ?? [];
 
-// Função para processar a mensagem com a Gemini API
-function processWithGemini($message, $history) {
-    $apiKey = GEMINI_API_KEY;
+// Função para processar a mensagem usando o data.json
+function processMessage($message) {
+    // Carregando o arquivo data.json
+    $jsonData = json_decode(file_get_contents(__DIR__ . '/../data.json'), true);
     
-    if (empty($apiKey)) {
-        error_log("Erro: Chave da API Gemini não configurada");
-        return "Desculpe, o serviço de chat não está configurado corretamente.";
+    if (!$jsonData || !isset($jsonData['questions'])) {
+        return "Desculpe, não consegui acessar o banco de dados de perguntas.";
     }
     
-    try {
-        // Inicializando o cliente da Gemini API
-        $genAI = new GenerativeAI($apiKey);
-        $model = $genAI->generativeModel('gemini-1.5-pro-latest', [
-            'temperature' => 0.7,
-            'maxOutputTokens' => 500,
-            'topK' => 40,
-            'topP' => 0.95
-        ]);
+    // Convertendo a mensagem para minúsculas para melhor comparação
+    $message = mb_strtolower($message, 'UTF-8');
         
-        // Preparando o histórico de mensagens
-        $messages = [
-            [
-                'role' => 'system',
-                'parts' => [
-                    [
-                        'text' => 'Você é o Caramelo Bot, um assistente virtual especializado em história do Brasil. 
-                                   Responda de forma educativa e amigável, sempre mantendo o foco no tema histórico.
-                                   Use linguagem clara e acessível, adequada para estudantes.
-                                   Seja conciso e direto em suas respostas.
-                                   Se não souber a resposta, seja honesto e sugira consultar outras fontes.'
-                    ]
-                ]
-            ]
-        ];
+    // Procurando por uma pergunta similar
+    $bestMatch = null;
+    $highestSimilarity = 0;
+    
+    foreach ($jsonData['questions'] as $qa) {
+        $question = mb_strtolower($qa['question'], 'UTF-8');
         
-        // Adicionando histórico
-        foreach ($history as $msg) {
-            $messages[] = [
-                'role' => $msg['role'],
-                'parts' => [
-                    ['text' => $msg['content']]
-                ]
-            ];
+        // Calculando similaridade usando similar_text
+        similar_text($message, $question, $percent);
+        
+        if ($percent > $highestSimilarity) {
+            $highestSimilarity = $percent;
+            $bestMatch = $qa;
         }
-        
-        // Adicionando a mensagem atual
-        $messages[] = [
-            'role' => 'user',
-            'parts' => [
-                ['text' => $message]
-            ]
-        ];
-        
-        // Iniciando uma sessão de chat
-        $chat = $model->startChat(['history' => $messages]);
-        
-        // Enviando a mensagem
-        $response = $chat->sendMessage($message);
-        
-        if (isset($response->text)) {
-            return $response->text;
-        }
-        
-        error_log("Erro: Resposta inválida da Gemini API");
-        return "Desculpe, não consegui processar sua mensagem corretamente.";
-    } catch (Exception $e) {
-        error_log("Erro na Gemini API: " . $e->getMessage());
-        return "Desculpe, ocorreu um erro ao processar sua mensagem. Por favor, tente novamente mais tarde.";
     }
+    
+    // Se encontrou uma correspondência com similaridade maior que 60%
+    if ($bestMatch && $highestSimilarity > 60) {
+        return $bestMatch['answer'];
+        }
+        
+    // Respostas padrão para quando não encontrar uma correspondência
+    $defaultResponses = [
+        "Desculpe, não tenho uma resposta específica para essa pergunta. Posso ajudar com outros tópicos da história do Brasil.",
+        "Essa pergunta está um pouco fora do meu conhecimento atual. Posso ajudar com outros aspectos da história do Brasil.",
+        "Não tenho informações suficientes sobre esse tópico específico. Que tal perguntar sobre outro período da história do Brasil?",
+        "Essa pergunta é um pouco complexa para meu banco de dados atual. Posso ajudar com outros temas históricos.",
+        "Não encontrei uma resposta precisa para essa pergunta. Posso ajudar com outros tópicos da história do Brasil."
+    ];
+    
+    return $defaultResponses[array_rand($defaultResponses)];
 }
 
 // Processando a mensagem
-$response = processWithGemini($message, $history);
+$response = processMessage($message);
 
 // Retornando a resposta
 echo json_encode([

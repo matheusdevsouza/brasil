@@ -8,6 +8,10 @@
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -32,16 +36,24 @@
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
-            background-color: #F9F9F9;
         }
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Montserrat', sans-serif;
         }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100
+            });
+        });
+    </script>
 </head>
 <body>
     <!-- Header Fixo -->
-    <header class="fixed top-0 left-0 right-0 bg-brasil-green text-white shadow-lg z-50">
+    <header class="fixed top-0 left-0 right-0 bg-brasil-green text-white z-50">
         <nav class="container mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
                 <!-- Logo -->
@@ -82,4 +94,4 @@
     </header>
     
     <!-- Espaçamento para o conteúdo -->
-    <div class="pt-20"> 
+    <div class="pt-10"> 

@@ -1,271 +1,232 @@
-<!-- Header da Página -->
-<div class="bg-brasil-green text-white py-16">
-    <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl font-montserrat font-bold mb-4">Galeria Histórica</h1>
-        <p class="text-lg max-w-2xl mx-auto">
-            Explore imagens e artefatos que contam a história do Brasil
+<!-- Hero Section -->
+<section class="relative py-20 bg-brasil-green">
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-center text-white mb-4" data-aos="fade-up">
+            Galeria de Imagens
+        </h1>
+        <p class="text-xl text-center text-white/80 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+            Explore momentos importantes da história do Brasil através de nossa galeria de imagens.
         </p>
     </div>
-</div>
+</section>
 
-<!-- Filtros -->
-<div class="container mx-auto px-4 py-8">
-    <div class="flex justify-center space-x-4 mb-8">
-        <button class="filter-btn active" data-category="all">
-            Todas
-        </button>
-        <button class="filter-btn" data-category="pinturas">
-            Pinturas
-        </button>
-        <button class="filter-btn" data-category="fotografias">
-            Fotografias
-        </button>
-        <button class="filter-btn" data-category="documentos">
-            Documentos
-        </button>
-        <button class="filter-btn" data-category="artefatos">
-            Artefatos
-        </button>
-    </div>
+<!-- Galeria Grid -->
+<section class="py-20">
+    <div class="container mx-auto px-4">
+        <!-- Primeira Linha -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <!-- Imagem 1 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up">
+                <img src="imgs/independencia.jpg" alt="Independência do Brasil" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Independência do Brasil</h3>
+                        <p class="text-white/90">7 de setembro de 1822 - O grito da independência ecoou às margens do Ipiranga.</p>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Grid da Galeria -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
-        <!-- Items serão carregados via JavaScript -->
-    </div>
+            <!-- Imagem 2 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                <img src="imgs/imperial.jpg" alt="Período Imperial" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Período Imperial</h3>
+                        <p class="text-white/90">1822-1889 - O Brasil sob o governo dos imperadores D. Pedro I e D. Pedro II.</p>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Paginação -->
-    <div class="flex justify-center mt-8 space-x-2" id="pagination">
-        <!-- Botões de paginação serão inseridos aqui -->
-    </div>
-
-    <!-- Loading Spinner -->
-    <div id="loading" class="hidden">
-        <div class="flex justify-center items-center py-8">
-            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-brasil-green"></div>
+            <!-- Imagem 3 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                <img src="imgs/república.jpg" alt="Proclamação da República" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Proclamação da República</h3>
+                        <p class="text-white/90">15 de novembro de 1889 - O fim do Império e o início da República.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
-<!-- Modal do Lightbox -->
-<div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 hidden z-50">
-    <div class="container mx-auto px-4 h-full flex items-center justify-center">
-        <div class="relative max-w-4xl w-full">
-            <button id="close-lightbox" class="absolute -top-12 right-0 text-white hover:text-brasil-yellow transition-colors duration-300">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-            </button>
-            <img id="lightbox-image" src="" alt="" class="w-full h-auto rounded-lg">
-            <div class="mt-4 text-white text-center">
-                <h3 id="lightbox-title" class="text-xl font-montserrat font-bold mb-2"></h3>
-                <p id="lightbox-description" class="text-gray-300"></p>
+        <!-- Segunda Linha -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <!-- Imagem 4 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                <img src="imgs/constituicao.jpg" alt="Constituição de 1988" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Constituição de 1988</h3>
+                        <p class="text-white/90">A Constituição Cidadã, marco da redemocratização do Brasil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 5 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="400">
+                <img src="imgs/cultura.jpg" alt="Cultura Brasileira" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Cultura Brasileira</h3>
+                        <p class="text-white/90">A rica diversidade cultural que forma a identidade do Brasil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 6 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="500">
+                <img src="imgs/natureza.jpg" alt="Natureza do Brasil" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Natureza do Brasil</h3>
+                        <p class="text-white/90">As belezas naturais que fazem do Brasil um país único.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terceira Linha -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <!-- Imagem 7 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="600">
+                <img src="imgs/arte.jpg" alt="Arte Brasileira" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Arte Brasileira</h3>
+                        <p class="text-white/90">A expressão artística que conta a história do nosso país.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 8 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="700">
+                <img src="imgs/arquitetura.jpg" alt="Arquitetura Histórica" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Arquitetura Histórica</h3>
+                        <p class="text-white/90">Os monumentos e construções que preservam nossa história.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 9 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="800">
+                <img src="imgs/personagens.jpg" alt="Personagens Históricos" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Personagens Históricos</h3>
+                        <p class="text-white/90">As personalidades que marcaram a história do Brasil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quarta Linha -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <!-- Imagem 10 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="900">
+                <img src="imgs/abolição.jpg" alt="Abolição da Escravatura" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Abolição da Escravatura</h3>
+                        <p class="text-white/90">13 de maio de 1888 - A Lei Áurea põe fim à escravidão no Brasil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 11 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1000">
+                <img src="imgs/era_vargas.jpg" alt="Era Vargas" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Era Vargas</h3>
+                        <p class="text-white/90">1930-1945 - O período de grandes transformações sociais e políticas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 12 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1100">
+                <img src="imgs/brasilia.jpg" alt="Construção de Brasília" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Construção de Brasília</h3>
+                        <p class="text-white/90">1960 - A inauguração da nova capital do Brasil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quinta Linha -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <!-- Imagem 13 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1200">
+                <img src="imgs/ditadura.jpg" alt="Ditadura Militar" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Ditadura Militar</h3>
+                        <p class="text-white/90">1964-1985 - Um período sombrio da história brasileira.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 14 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1300">
+                <img src="imgs/redemocratizacao.jpg" alt="Redemocratização" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Redemocratização</h3>
+                        <p class="text-white/90">1985 - O retorno do Brasil à democracia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 15 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1400">
+                <img src="imgs/plano_real.jpg" alt="Plano Real" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Plano Real</h3>
+                        <p class="text-white/90">1994 - A estabilização da economia brasileira.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sexta Linha -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Imagem 16 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1500">
+                <img src="imgs/olimpiadas.jpg" alt="Olimpíadas Rio 2016" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Olimpíadas Rio 2016</h3>
+                        <p class="text-white/90">O Brasil sediando os maiores jogos esportivos do mundo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 17 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1600">
+                <img src="imgs/pandemia.jpg" alt="Pandemia COVID-19" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Pandemia COVID-19</h3>
+                        <p class="text-white/90">2020 - Um dos maiores desafios da história recente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem 18 -->
+            <div class="relative group overflow-hidden rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="1700">
+                <img src="imgs/tecnologia.jpg" alt="Era Digital" class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                    <div>
+                        <h3 class="text-white text-xl font-bold mb-2">Era Digital</h3>
+                        <p class="text-white/90">O Brasil na vanguarda da transformação digital.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<!-- Scripts -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const galleryGrid = document.getElementById('gallery-grid');
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const pagination = document.getElementById('pagination');
-    const loading = document.getElementById('loading');
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImage = document.getElementById('lightbox-image');
-    const lightboxTitle = document.getElementById('lightbox-title');
-    const lightboxDescription = document.getElementById('lightbox-description');
-    const closeLightbox = document.getElementById('close-lightbox');
-    
-    let currentPage = 1;
-    let currentCategory = 'all';
-    let totalPages = 1;
-    
-    // Função para carregar itens da galeria
-    async function loadGalleryItems(page = 1, category = 'all') {
-        try {
-            loading.classList.remove('hidden');
-            galleryGrid.innerHTML = '';
-            
-            const response = await fetch(`api/gallery.php?page=${page}&category=${category}`);
-            const data = await response.json();
-            
-            if (data.success) {
-                renderGallery(data.data.items);
-                renderPagination(data.data.pagination);
-            } else {
-                console.error('Erro ao carregar galeria:', data.error);
-            }
-        } catch (error) {
-            console.error('Erro:', error);
-        } finally {
-            loading.classList.add('hidden');
-        }
-    }
-    
-    // Função para renderizar os itens da galeria
-    function renderGallery(items) {
-        galleryGrid.innerHTML = '';
-        
-        items.forEach(item => {
-            const itemElement = document.createElement('div');
-            itemElement.className = 'gallery-item group';
-            itemElement.innerHTML = `
-                <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105">
-                    <img src="${item.image_url}" 
-                         alt="${item.title}" 
-                         class="w-full h-64 object-cover">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end">
-                        <div class="p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                            <h3 class="text-lg font-montserrat font-bold">${item.title}</h3>
-                            <p class="text-sm text-gray-200">${item.year}</p>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            itemElement.addEventListener('click', () => {
-                openLightbox(item);
-            });
-            
-            galleryGrid.appendChild(itemElement);
-        });
-    }
-    
-    // Função para renderizar a paginação
-    function renderPagination(pagination) {
-        totalPages = pagination.total_pages;
-        currentPage = pagination.current_page;
-        
-        let paginationHTML = '';
-        
-        // Botão Anterior
-        paginationHTML += `
-            <button class="pagination-btn ${currentPage === 1 ? 'disabled' : ''}" 
-                    ${currentPage === 1 ? 'disabled' : ''} 
-                    data-page="${currentPage - 1}">
-                Anterior
-            </button>
-        `;
-        
-        // Números das páginas
-        for (let i = 1; i <= totalPages; i++) {
-            if (
-                i === 1 || 
-                i === totalPages || 
-                (i >= currentPage - 2 && i <= currentPage + 2)
-            ) {
-                paginationHTML += `
-                    <button class="pagination-btn ${i === currentPage ? 'active' : ''}" 
-                            data-page="${i}">
-                        ${i}
-                    </button>
-                `;
-            } else if (
-                i === currentPage - 3 || 
-                i === currentPage + 3
-            ) {
-                paginationHTML += `
-                    <span class="px-4">...</span>
-                `;
-            }
-        }
-        
-        // Botão Próximo
-        paginationHTML += `
-            <button class="pagination-btn ${currentPage === totalPages ? 'disabled' : ''}" 
-                    ${currentPage === totalPages ? 'disabled' : ''} 
-                    data-page="${currentPage + 1}">
-                Próximo
-            </button>
-        `;
-        
-        pagination.innerHTML = paginationHTML;
-        
-        // Adicionando event listeners aos botões de paginação
-        pagination.querySelectorAll('.pagination-btn').forEach(button => {
-            button.addEventListener('click', () => {
-                const page = parseInt(button.dataset.page);
-                if (!button.classList.contains('disabled')) {
-                    loadGalleryItems(page, currentCategory);
-                }
-            });
-        });
-    }
-    
-    // Função para abrir o lightbox
-    function openLightbox(item) {
-        lightboxImage.src = item.image_url;
-        lightboxTitle.textContent = item.title;
-        lightboxDescription.textContent = item.description;
-        lightbox.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
-    }
-    
-    // Event Listeners
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const category = button.dataset.category;
-            
-            // Atualiza botões ativos
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-            
-            // Atualiza categoria atual e carrega itens
-            currentCategory = category;
-            currentPage = 1;
-            loadGalleryItems(currentPage, category);
-        });
-    });
-    
-    closeLightbox.addEventListener('click', () => {
-        lightbox.classList.add('hidden');
-        document.body.style.overflow = '';
-    });
-    
-    // Fecha o lightbox com a tecla ESC
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
-            lightbox.classList.add('hidden');
-            document.body.style.overflow = '';
-        }
-    });
-    
-    // Inicialização
-    loadGalleryItems();
-});
-</script>
-
-<style>
-.filter-btn {
-    @apply px-6 py-2 rounded-full text-gray-600 bg-gray-100 hover:bg-brasil-green hover:text-white transition-colors duration-300;
-}
-
-.filter-btn.active {
-    @apply bg-brasil-green text-white;
-}
-
-.pagination-btn {
-    @apply px-4 py-2 rounded-lg text-gray-600 bg-gray-100 hover:bg-brasil-green hover:text-white transition-colors duration-300;
-}
-
-.pagination-btn.active {
-    @apply bg-brasil-green text-white;
-}
-
-.pagination-btn.disabled {
-    @apply opacity-50 cursor-not-allowed;
-}
-
-.gallery-item {
-    opacity: 1;
-    transform: translateY(0);
-    transition: all 0.3s ease-in-out;
-}
-
-.gallery-item.hidden {
-    opacity: 0;
-    transform: translateY(20px);
-    pointer-events: none;
-}
-</style> 
+</section> 
