@@ -118,6 +118,6 @@ INSERT INTO gallery_items (title, description, image_url, category, year) VALUES
 ('Proclamação da República', 'Pintura histórica retratando o momento da Proclamação da República em 1889.', 'imgs/gallery/proclamacao.jpg', 'pinturas', 1889),
 ('Construção de Brasília', 'Fotografia histórica da construção da capital federal.', 'imgs/gallery/brasilia.jpg', 'fotografias', 1960),
 ('Lei Áurea', 'Documento original da Lei Áurea que aboliu a escravidão no Brasil.', 'imgs/gallery/lei-aurea.jpg', 'documentos', 1888),
-('Coroa Imperial', 'Réplica da coroa imperial brasileira, símbolo do período monárquico.', '/CarameloBOT/imgs/gallery/coroa.png', 'artefatos', 1822),
+('Coroa Imperial', 'Réplica da coroa imperial brasileira, símbolo do período monárquico.', '/brasil/imgs/gallery/coroa.png', 'artefatos', 1822),
 ('Independência do Brasil', 'Pintura de Pedro Américo retratando o Grito do Ipiranga.', 'imgs/gallery/independencia.jpg', 'pinturas', 1822),
 ('Construção do Cristo Redentor', 'Fotografia histórica da construção do monumento no Rio de Janeiro.', 'imgs/gallery/cristo.jpg', 'fotografias', 1931); 

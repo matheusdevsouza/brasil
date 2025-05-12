@@ -6,7 +6,7 @@
     <title><?= SITE_NAME ?></title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/CarameloBOT/imgs/icon.png">
+    <link rel="icon" type="image/png" href="/brasil/imgs/icon.png">
     
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">

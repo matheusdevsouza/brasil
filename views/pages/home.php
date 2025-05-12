@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brasil Verde</title>
-<link rel="icon" type="image/png" href="/CarameloBOT/imgs/icon.png?v=<?php echo time(); ?>">
+<link rel="icon" type="image/png" href="/brasil/imgs/icon.png?v=<?php echo time(); ?>">
 </head>
 <body>
     <!-- Hero Section -->
@@ -26,7 +26,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-up" data-aos-delay="200" >
             <!-- Card 1 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
-                <img src="/CarameloBOT/imgs/independencia.jpg" alt="Independência do Brasil" class="w-full h-48 object-cover">
+                <img src="/brasil/imgs/independencia.jpg" alt="Independência do Brasil" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2 text-brasil-green">Independência do Brasil</h3>
                     <p class="text-gray-600">O processo que transformou o Brasil em uma nação independente em 1822.</p>
@@ -35,7 +35,7 @@
             
             <!-- Card 2 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
-                <img src="/CarameloBOT/imgs/república.jpg" alt="Proclamação da República" class="w-full h-48 object-cover">
+                <img src="/brasil/imgs/república.jpg" alt="Proclamação da República" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2 text-brasil-green">Proclamação da República</h3>
                     <p class="text-gray-600">O fim do Império e o início de uma nova era na história brasileira.</p>
@@ -44,7 +44,7 @@
             
             <!-- Card 3 -->
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105">
-                <img src="/CarameloBOT/imgs/brasilia.jpg" alt="Construção de Brasília" class="w-full h-48 object-cover">
+                <img src="/brasil/imgs/brasilia.jpg" alt="Construção de Brasília" class="w-full h-48 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2 text-brasil-green">Construção de Brasília</h3>
                     <p class="text-gray-600">A criação da capital moderna do Brasil, um marco da arquitetura mundial.</p>
@@ -71,7 +71,7 @@
             <!-- Período Colonial -->
             <div class="flex flex-col md:flex-row items-center gap-8">
                 <div class="md:w-1/2">
-                    <img src="/CarameloBOT/imgs/colonial.jpg" alt="Período Colonial" class="rounded-lg shadow-lg w-full" data-aos="fade-up" data-aos-delay="200">
+                    <img src="/brasil/imgs/colonial.jpg" alt="Período Colonial" class="rounded-lg shadow-lg w-full" data-aos="fade-up" data-aos-delay="200">
                 </div>
                 <div class="md:w-1/2">
                     <h3 class="text-2xl font-bold mb-4 text-brasil-green" data-aos="fade-up" data-aos-delay="200">Período Colonial</h3>

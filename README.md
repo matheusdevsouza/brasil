@@ -52,7 +52,7 @@ Brasil Verde é uma plataforma educacional interativa sobre a história do Brasi
 1. Clone o repositório:
 ```bash
 git clone https://github.com/matheusdevsouza/brasil.git
-cd CarameloBOT
+cd brasil
 ```
 
 2. Instale as dependências do PHP:
@@ -101,7 +101,7 @@ cp config/config.example.php config/config.php
 
 1. Acesse a aplicação pelo navegador:
 ```
-http://localhost/CarameloBOT
+http://localhost/brasil
 ```
 
 2. O chatbot Caramelo Bot estará disponível no canto inferior direito da tela.

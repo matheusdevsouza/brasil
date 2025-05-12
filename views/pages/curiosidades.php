@@ -4,218 +4,218 @@ $curiosidades = [
     [
         'titulo' => 'Origem do Nome Brasil',
         'descricao' => 'O nome Brasil vem da árvore pau-brasil, que era abundante no litoral brasileiro e produzia uma tinta vermelha muito valorizada na Europa.',
-        'imagem' => '/CarameloBOT/imgs/pau-brasil.jpg',
+        'imagem' => '/brasil/imgs/pau-brasil.jpg',
         'categoria' => 'História'
     ],
     [
         'titulo' => 'Maior Floresta Tropical',
         'descricao' => 'A Amazônia é a maior floresta tropical do mundo, cobrindo cerca de 5,5 milhões de quilômetros quadrados.',
-        'imagem' => '/CarameloBOT/imgs/amazonia.jpg',
+        'imagem' => '/brasil/imgs/amazonia.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Primeira Capital',
         'descricao' => 'Salvador foi a primeira capital do Brasil, de 1549 até 1763, quando o título foi transferido para o Rio de Janeiro.',
-        'imagem' => '/CarameloBOT/imgs/salvador.jpg',
+        'imagem' => '/brasil/imgs/salvador.jpg',
         'categoria' => 'História'
     ],
     [
         'titulo' => 'Maior Biodiversidade',
         'descricao' => 'O Brasil abriga a maior biodiversidade do planeta, com mais de 100 mil espécies de animais e 43 mil espécies de plantas.',
-        'imagem' => '/CarameloBOT/imgs/biodiversidade.jpg',
+        'imagem' => '/brasil/imgs/biodiversidade.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Invenção do Avião',
         'descricao' => 'O brasileiro Santos Dumont é considerado o pai da aviação, tendo realizado o primeiro voo homologado em 1906.',
-        'imagem' => 'imgs/santos-dumont.jpg',
+        'imagem' => '/brasil/imgs/santos-dumont.jpg',
         'categoria' => 'Ciência'
     ],
     [
         'titulo' => 'Maior Rio do Mundo',
         'descricao' => 'O Rio Amazonas é o maior rio do mundo em volume de água, despejando cerca de 209 mil metros cúbicos de água por segundo no oceano.',
-        'imagem' => 'imgs/amazonas.jpg',
+        'imagem' => '/brasil/imgs/amazonas.jpg',
         'categoria' => 'Natureza'
     ],
     // Novas curiosidades
     [
         'titulo' => 'Cristo Redentor: Uma das Sete Maravilhas',
         'descricao' => 'O Cristo Redentor, no Rio de Janeiro, foi eleito uma das Novas Sete Maravilhas do Mundo em 2007.',
-        'imagem' => '/CarameloBOT/imgs/cristo-redentor.jpg',
+        'imagem' => '/brasil/imgs/cristo-redentor.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Maior Festa Popular do Mundo',
         'descricao' => 'O Carnaval do Rio de Janeiro é considerado a maior festa popular do planeta, atraindo milhões de turistas todos os anos.',
-        'imagem' => '/CarameloBOT/imgs/carnaval.jpg',
+        'imagem' => '/brasil/imgs/carnaval.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Futebol: Paixão Nacional',
         'descricao' => 'O Brasil é o único país pentacampeão mundial de futebol, com títulos em 1958, 1962, 1970, 1994 e 2002.',
-        'imagem' => '/CarameloBOT/imgs/futebol.jpg',
+        'imagem' => '/brasil/imgs/futebol.jpg',
         'categoria' => 'Esportes'
     ],
     [
         'titulo' => 'Maior Produtor de Café',
         'descricao' => 'O Brasil é o maior produtor e exportador de café do mundo desde o século XIX.',
-        'imagem' => '/CarameloBOT/imgs/cafe.jpg',
+        'imagem' => '/brasil/imgs/cafe.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Pantanal: Maior Planície Alagável',
         'descricao' => 'O Pantanal é a maior planície alagável do planeta, com fauna e flora riquíssimas.',
-        'imagem' => '/CarameloBOT/imgs/pantanal.jpg',
+        'imagem' => '/brasil/imgs/pantanal.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Feijoada: Prato Típico',
         'descricao' => 'A feijoada é considerada o prato mais tradicional do Brasil, feita com feijão preto e carnes variadas.',
-        'imagem' => '/CarameloBOT/imgs/feijoada.jpg',
+        'imagem' => '/brasil/imgs/feijoada.jpg',
         'categoria' => 'Gastronomia'
     ],
     [
         'titulo' => 'Maior Comunidade Japonesa Fora do Japão',
         'descricao' => 'São Paulo abriga a maior comunidade japonesa fora do Japão, resultado da imigração iniciada em 1908.',
-        'imagem' => '/CarameloBOT/imgs/bairro-liberdade.jpg',
+        'imagem' => '/brasil/imgs/bairro-liberdade.jpg',
         'categoria' => 'Sociedade'
     ],
     [
         'titulo' => 'Cataratas do Iguaçu',
         'descricao' => 'As Cataratas do Iguaçu, no Paraná, são uma das maiores e mais impressionantes quedas d\'agua do mundo.',
-        'imagem' => '/CarameloBOT/imgs/cataratas.jpg',
+        'imagem' => '/brasil/imgs/cataratas.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Açai: Fruto da Amazônia',
         'descricao' => 'O açaí, típico da Amazônia, é consumido em todo o Brasil e exportado para o mundo inteiro.',
-        'imagem' => '/CarameloBOT/imgs/acai.jpg',
+        'imagem' => '/brasil/imgs/acai.jpg',
         'categoria' => 'Gastronomia'
     ],
     [
         'titulo' => 'Maior Sistema de Votação Eletrônica',
         'descricao' => 'O Brasil possui o maior sistema de votação eletrônica do mundo, utilizado desde 1996.',
-        'imagem' => '/CarameloBOT/imgs/urna-eletronica.jpg',
+        'imagem' => '/brasil/imgs/urna-eletronica.jpg',
         'categoria' => 'Sociedade'
     ],
     [
         'titulo' => 'Bossa Nova',
         'descricao' => 'A Bossa Nova, gênero musical brasileiro, conquistou o mundo com artistas como Tom Jobim e João Gilberto.',
-        'imagem' => '/CarameloBOT/imgs/bossa-nova.jpg',
+        'imagem' => '/brasil/imgs/bossa-nova.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Maior Exportador de Soja',
         'descricao' => 'O Brasil é o maior exportador mundial de soja, sendo referência no agronegócio.',
-        'imagem' => '/CarameloBOT/imgs/soja.jpg',
+        'imagem' => '/brasil/imgs/soja.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Praia do Cassino',
         'descricao' => 'A Praia do Cassino, no Rio Grande do Sul, é considerada a mais longa do mundo, com mais de 240 km de extensão.',
-        'imagem' => '/CarameloBOT/imgs/praia-cassino.jpg',
+        'imagem' => '/brasil/imgs/praia-cassino.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Cachaça: Bebida Típica',
         'descricao' => 'A cachaça é a bebida alcoólica mais tradicional do Brasil e base da famosa caipirinha.',
-        'imagem' => '/CarameloBOT/imgs/cachaca.jpg',
+        'imagem' => '/brasil/imgs/cachaca.jpg',
         'categoria' => 'Gastronomia'
     ],
     [
         'titulo' => 'Maior Frota de Helicópteros',
         'descricao' => 'São Paulo possui a maior frota de helicópteros do mundo, devido ao intenso trânsito da cidade.',
-        'imagem' => '/CarameloBOT/imgs/helicoptero.jpg',
+        'imagem' => '/brasil/imgs/helicoptero.jpg',
         'categoria' => 'Sociedade'
     ],
     [
         'titulo' => 'Capoeira',
         'descricao' => 'A capoeira é uma expressão cultural afro-brasileira que mistura arte marcial, dança e música.',
-        'imagem' => '/CarameloBOT/imgs/capoeira.jpg',
+        'imagem' => '/brasil/imgs/capoeira.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Maior Exportador de Carne Bovina',
         'descricao' => 'O Brasil é o maior exportador mundial de carne bovina.',
-        'imagem' => '/CarameloBOT/imgs/carne-bovina.jpg',
+        'imagem' => '/brasil/imgs/carne-bovina.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Floresta de Araucárias',
         'descricao' => 'A Floresta de Araucárias, típica do sul do Brasil, é uma das mais antigas do mundo.',
-        'imagem' => '/CarameloBOT/imgs/araucaria.jpg',
+        'imagem' => '/brasil/imgs/araucaria.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Primeira Universidade das Américas',
         'descricao' => 'A Universidade do Brasil, atual UFRJ, foi a primeira universidade fundada nas Américas, em 1792.',
-        'imagem' => '/CarameloBOT/imgs/ufrj.jpg',
+        'imagem' => '/brasil/imgs/ufrj.jpg',
         'categoria' => 'Ciência'
     ],
     [
         'titulo' => 'Maior Festa Junina',
         'descricao' => 'Campina Grande (PB) e Caruaru (PE) disputam o título de maior festa junina do mundo.',
-        'imagem' => '/CarameloBOT/imgs/festa-junina.jpg',
+        'imagem' => '/brasil/imgs/festa-junina.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Pedra da Gávea',
         'descricao' => 'A Pedra da Gávea, no Rio de Janeiro, é o maior bloco de pedra à beira-mar do planeta.',
-        'imagem' => '/CarameloBOT/imgs/pedra-gavea.jpg',
+        'imagem' => '/brasil/imgs/pedra-gavea.jpg',
         'categoria' => 'Natureza'
     ],
     [
         'titulo' => 'Maior Hidrelétrica do Mundo',
         'descricao' => 'A Usina de Itaipu, na fronteira com o Paraguai, já foi a maior hidrelétrica do mundo em geração de energia.',
-        'imagem' => '/CarameloBOT/imgs/itaipu.jpg',
+        'imagem' => '/brasil/imgs/itaipu.jpg',
         'categoria' => 'Ciência'
     ],
     [
         'titulo' => 'Maior Festa de Parintins',
         'descricao' => 'O Festival de Parintins, no Amazonas, é uma das maiores festas folclóricas do Brasil, com disputa entre os bois Garantido e Caprichoso.',
-        'imagem' => '/CarameloBOT/imgs/parintins.jpg',
+        'imagem' => '/brasil/imgs/parintins.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Maior Produtor de Laranja',
         'descricao' => 'O Brasil é o maior produtor mundial de laranja e suco de laranja.',
-        'imagem' => '/CarameloBOT/imgs/laranja.jpg',
+        'imagem' => '/brasil/imgs/laranja.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Maior Exportador de Frango',
         'descricao' => 'O Brasil é o maior exportador mundial de carne de frango.',
-        'imagem' => '/CarameloBOT/imgs/frango.jpg',
+        'imagem' => '/brasil/imgs/frango.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Maior Produtor de Cana-de-Açúcar',
         'descricao' => 'O Brasil é o maior produtor mundial de cana-de-açúcar.',
-        'imagem' => '/CarameloBOT/imgs/cana.jpg',
+        'imagem' => '/brasil/imgs/cana.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Maior Exportador de Minério de Ferro',
         'descricao' => 'O Brasil é um dos maiores exportadores mundiais de minério de ferro.',
-        'imagem' => '/CarameloBOT/imgs/minerio.jpg',
+        'imagem' => '/brasil/imgs/minerio.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Maior Festa do Divino',
         'descricao' => 'A Festa do Divino Espírito Santo, em Pirenópolis (GO), é uma das mais tradicionais do Brasil.',
-        'imagem' => '/CarameloBOT/imgs/divino.jpg',
+        'imagem' => '/brasil/imgs/divino.jpg',
         'categoria' => 'Cultura'
     ],
     [
         'titulo' => 'Maior Exportador de Calçados',
         'descricao' => 'O Brasil é um dos maiores exportadores mundiais de calçados.',
-        'imagem' => '/CarameloBOT/imgs/calcados.jpg',
+        'imagem' => '/brasil/imgs/calcados.jpg',
         'categoria' => 'Economia'
     ],
     [
         'titulo' => 'Maior Produtor de Papel e Celulose',
         'descricao' => 'O Brasil é referência mundial na produção de papel e celulose.',
-        'imagem' => '/CarameloBOT/imgs/papel-celulose.jpg',
+        'imagem' => '/brasil/imgs/papel-celulose.jpg',
         'categoria' => 'Economia'
     ]
 ];
