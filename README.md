@@ -1,4 +1,4 @@
-# Brasil Verde – Plataforma Educacional Interativa sobre a História do Brasil
+# Brasil Verde – Plataforma Educacional sobre a História do Brasil
 
 **Brasil Verde** é um projeto de extensão universitária com foco educativo e social. A plataforma foi desenvolvida com PHP, JavaScript e MySQL, com o objetivo de promover o conhecimento histórico do Brasil de forma acessível, dinâmica e interativa, contribuindo com a formação cidadã e o fortalecimento da memória nacional.
 
@@ -87,8 +87,7 @@ cd brasil
 
 2. Instale as dependências do PHP:
 ```bash
-composer instal
-l
+composer install
 ```
 
 3. Instale as dependências do Node.js:
@@ -208,9 +207,7 @@ npm run build
 
 Para dúvidas ou sugestões:
 
-✉️ howdy@souzadev.com
-📞 (13) 99683-7572
-🐛 Abra uma issue no GitHub
+✉️ howdy@souzadev.com | 📞 (13) 99683-7572 | 🐛 Abra uma issue no GitHub
 
 ---
 
