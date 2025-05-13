@@ -6,7 +6,7 @@
 
 ## 🔗 Acesse o Projeto
 
-👉 [Clique aqui para acessar o Brasil Verde](https://www.souzadev.com/brasil)
+👉 [Brasil Verde](https://www.souzadev.com/brasil)
 
 ---
 
@@ -66,29 +66,35 @@ Este projeto está alinhado com os Objetivos de Desenvolvimento Sustentável (OD
 
 ## 📸 Imagens do Projeto
 
-| Home Page | Timeline | Curiosidades | Galeria | Quiz |
-|-----------|----------|--------------|---------|------|
-| ![Home](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Homepage.png) | ![Timeline](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Timeline.png) | ![Curiosidades](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Curiosidades.png) | ![Galeria](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Galeria.png) | ![Quiz](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Quiz.png) |
+| Página        | Link                                                                 |
+|---------------|----------------------------------------------------------------------|
+| Home Page     | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Homepage.png)     |
+| Timeline      | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Timeline.png)      |
+| Curiosidades  | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Curiosidades.png)  |
+| Galeria       | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Galeria.png)       |
+| Quiz          | [Ver imagem](https://www.souzadev.com/brasil/imgs/Brasil%20Verde%20-%20Quiz.png)          |
+
 
 ---
 
 ## 🚀 Instalação
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/matheusdevsouza/brasil.git
-   cd brasil
-   ```
+```bash
+git clone https://github.com/matheusdevsouza/brasil.git
+cd brasil
+```
 
 2. Instale as dependências do PHP:
-    ```bash
-    composer instal
-    l```
+```bash
+composer instal
+l
+```
 
 3. Instale as dependências do Node.js:
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
 4. Configure o banco de dados (opcional):
     - Crie um banco de dados MySQL
@@ -100,25 +106,24 @@ Este projeto está alinhado com os Objetivos de Desenvolvimento Sustentável (OD
     - Nginx: defina ```public/``` como root
 
 6. Configure permissões:
-    ```bash
-    chmod 755 -R public/
-    chmod 777 -R logs/
-    ```
+```bash
+chmod 755 -R public/
+chmod 777 -R logs/
+```
 
 7. Compile os assets:
-    ```bash
-    npm run build
-    ```
+```bash
+npm run build
+```
 
 ---
 
 ## ⚙️ Configuração
 
 Copie e edite o arquivo de configuração:
-
-    ```bash
-    cp config/config.example.php config/config.php
-    ```
+```bash
+cp config/config.example.php config/config.php
+```
 
 ---
 
@@ -127,9 +132,9 @@ Copie e edite o arquivo de configuração:
 1. Inicie o servidor web (Apache, XAMPP, etc)
 
 2. Acesse no navegador:
-    ```bash
-    http://localhost/brasil
-    ```
+```bash
+http://localhost/brasil
+```
 
 ---
 
@@ -188,16 +193,14 @@ brasil-verde/
 ## 👨‍💻 Desenvolvimento
 
 Modo dev:
-
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
 
 Modo produção:
-
-    ```bash
-    npm run build
-    ```
+```bash
+npm run build
+```
 
 ---
 
